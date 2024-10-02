@@ -1,4 +1,4 @@
-#Installation
+# Installation
 
 1. run -> python3 baseline.py
 2. New jsonl file is created called predictions.jsonl
