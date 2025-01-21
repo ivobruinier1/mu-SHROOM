@@ -1,0 +1,4271 @@
+[
+   [
+      "val-en-1",
+      "Petra van Stoveren won a silver medal in the 2008 Summer Olympics in Beijing, China.",
+      "What did Petra van Staveren win a gold medal for?",
+      [
+         {
+            "start": 10,
+            "prob": 0.2,
+            "end": 12
+         },
+         {
+            "start": 12,
+            "prob": 0.3,
+            "end": 13
+         },
+         {
+            "start": 13,
+            "prob": 0.2,
+            "end": 18
+         },
+         {
+            "start": 25,
+            "prob": 0.9,
+            "end": 31
+         },
+         {
+            "start": 31,
+            "prob": 0.1,
+            "end": 37
+         },
+         {
+            "start": 45,
+            "prob": 1.0,
+            "end": 49
+         },
+         {
+            "start": 49,
+            "prob": 0.3,
+            "end": 65
+         },
+         {
+            "start": 65,
+            "prob": 0.2,
+            "end": 69
+         },
+         {
+            "start": 69,
+            "prob": 0.9,
+            "end": 83
+         }
+      ],
+      "Olympic Games. Individual athletes have also used the Olympic stage to promote their own political agenda. At the 1968 Summer Olympics, in Mexico City, two American track and field athletes, Tommie Smith and John Carlos, who finished first and third in the 200meter sprint race, performed the Black Power salute on the podium. The runner up Peter Norman wore an Olympic Project for Human Rights badge in support of Smith and Carlos. IOC President Avery Brundage then told the United States, to either send the two athletes home or withdraw the track and field team. The United States chose to send the pair home.",
+      "Olympic Games",
+      null
+   ],
+   [
+      "val-en-2",
+      "The Elysiphale order contains 5 genera.",
+      "How many genera does the Erysiphales order contain?",
+      [
+         {
+            "start": 4,
+            "prob": 0.2,
+            "end": 14
+         },
+         {
+            "start": 30,
+            "prob": 1.0,
+            "end": 31
+         },
+         {
+            "start": 31,
+            "prob": 0.2,
+            "end": 38
+         }
+      ],
+      "Beetle. Polyphaga: polyphaga is the largest and most diverse suborder of beetles. The name means \u201ceaters of many things\u201d. Polyphaga have 144 families in 16 superfamilies. They have an enormous variety of specialization and adaptation, with over 300,000 described species, or about 90% of the beetle species so far discovered and named. There are five infraorders:",
+      "5",
+      [
+         30,
+         30
+      ]
+   ],
+   [
+      "val-en-3",
+      "Yes, all arachnids have antennas. However, not all of them are visible to the naked eye.",
+      "Do all arthropods have antennae?",
+      [
+         {
+            "start": 0,
+            "prob": 0.6,
+            "end": 3
+         },
+         {
+            "start": 3,
+            "prob": 0.4,
+            "end": 8
+         },
+         {
+            "start": 8,
+            "prob": 0.2,
+            "end": 9
+         },
+         {
+            "start": 9,
+            "prob": 0.6,
+            "end": 18
+         },
+         {
+            "start": 18,
+            "prob": 0.3,
+            "end": 24
+         },
+         {
+            "start": 24,
+            "prob": 0.4,
+            "end": 32
+         },
+         {
+            "start": 32,
+            "prob": 0.1,
+            "end": 34
+         },
+         {
+            "start": 34,
+            "prob": 0.4,
+            "end": 43
+         },
+         {
+            "start": 43,
+            "prob": 0.5,
+            "end": 63
+         },
+         {
+            "start": 63,
+            "prob": 0.7,
+            "end": 70
+         },
+         {
+            "start": 70,
+            "prob": 0.5,
+            "end": 78
+         },
+         {
+            "start": 78,
+            "prob": 0.7,
+            "end": 87
+         }
+      ],
+      "Arachnid. Arachnids have no antennae or wings. Their body is organized into two parts: the cephalothorax, and the abdomen.",
+      "Yes",
+      [
+         0,
+         2
+      ]
+   ],
+   [
+      "val-en-4",
+      "Chance the rapper debuted in 2011.",
+      "When did Chance the Rapper debut?",
+      [
+         {
+            "start": 18,
+            "prob": 0.0909090909,
+            "end": 29
+         },
+         {
+            "start": 29,
+            "prob": 0.5454545455,
+            "end": 33
+         }
+      ],
+      "50 Cent. 50 Cent first appeared on Onyx's 1998 single \"React\". In 1999, he recorded the single \"How to Rob\" for the soundtrack of In Too Deep. Power of the Dollar was supposed to be 50 Cent's first album which included \"How to Rob\". He became successful in rap music in 2002. He was helped by his fellow gang boss Rijaan D. M. (the same person who helped him release track \"Wanksta\"). Since then, he has sold millions of records. His first album, \"Get Rich or Die Tryin'\" broke music records and went multi-platinum. It was number one right away on the Billboard 200.  It sold 872,000 copies in the first four days. 50 and the album both won an American Music Award. He won the first Sound of... award by the BBC for new artists. He also won the BET Award for Best New Artist.",
+      "2011",
+      [
+         29,
+         32
+      ]
+   ],
+   [
+      "val-en-5",
+      "The UN's Sustainable City initiative defines a city as one that is:\n- Equipped with infrastructure and services to ensure sustainable and equitable access to a range of basic services, such as water, sanitation, and electricity;\n-.",
+      "What is the UN Sustainable Development Goal 11\u2019s definition of a sustainable city?",
+      [
+         {
+            "start": 0,
+            "prob": 0.0909090909,
+            "end": 9
+         },
+         {
+            "start": 9,
+            "prob": 0.2727272727,
+            "end": 36
+         },
+         {
+            "start": 36,
+            "prob": 0.1818181818,
+            "end": 70
+         },
+         {
+            "start": 70,
+            "prob": 0.5454545455,
+            "end": 115
+         },
+         {
+            "start": 115,
+            "prob": 0.6363636364,
+            "end": 133
+         },
+         {
+            "start": 133,
+            "prob": 0.5454545455,
+            "end": 138
+         },
+         {
+            "start": 138,
+            "prob": 0.8181818182,
+            "end": 147
+         },
+         {
+            "start": 147,
+            "prob": 0.7272727273,
+            "end": 154
+         },
+         {
+            "start": 154,
+            "prob": 0.6363636364,
+            "end": 160
+         },
+         {
+            "start": 160,
+            "prob": 0.7272727273,
+            "end": 183
+         },
+         {
+            "start": 183,
+            "prob": 0.6363636364,
+            "end": 216
+         },
+         {
+            "start": 216,
+            "prob": 0.7272727273,
+            "end": 227
+         }
+      ],
+      "Sustainable development. Sustainable development is a way for people to use the things they need so there will be left. It means building things without harming the natural world.",
+      "",
+      [
+         0,
+         -1
+      ]
+   ],
+   [
+      "val-en-6",
+      "Zhejing cuisine is known for its unique flavors and cooking techniques. The four main styles are: 1) Jiangnan style, which is characterized by the use of rice and seafood; 2) Hangzhou style which uses a lot of vegetables and meat; the 3) Zhaozhou style that is famous for dishes made with pork; and 4) Xiamen style dishes that are influenced by Cantonese cuisine.",
+      "What are the four styles of Zhejiang cuisine?",
+      [
+         {
+            "start": 0,
+            "prob": 0.2727272727,
+            "end": 7
+         },
+         {
+            "start": 7,
+            "prob": 0.0909090909,
+            "end": 14
+         },
+         {
+            "start": 19,
+            "prob": 0.0909090909,
+            "end": 28
+         },
+         {
+            "start": 33,
+            "prob": 0.0909090909,
+            "end": 47
+         },
+         {
+            "start": 52,
+            "prob": 0.0909090909,
+            "end": 70
+         },
+         {
+            "start": 98,
+            "prob": 0.0909090909,
+            "end": 101
+         },
+         {
+            "start": 101,
+            "prob": 1.0,
+            "end": 109
+         },
+         {
+            "start": 109,
+            "prob": 0.4545454545,
+            "end": 115
+         },
+         {
+            "start": 115,
+            "prob": 0.3636363636,
+            "end": 126
+         },
+         {
+            "start": 126,
+            "prob": 0.4545454545,
+            "end": 142
+         },
+         {
+            "start": 142,
+            "prob": 0.3636363636,
+            "end": 147
+         },
+         {
+            "start": 147,
+            "prob": 0.4545454545,
+            "end": 150
+         },
+         {
+            "start": 150,
+            "prob": 0.3636363636,
+            "end": 154
+         },
+         {
+            "start": 154,
+            "prob": 0.8181818182,
+            "end": 158
+         },
+         {
+            "start": 158,
+            "prob": 0.3636363636,
+            "end": 163
+         },
+         {
+            "start": 163,
+            "prob": 0.6363636364,
+            "end": 170
+         },
+         {
+            "start": 190,
+            "prob": 0.1818181818,
+            "end": 196
+         },
+         {
+            "start": 196,
+            "prob": 0.3636363636,
+            "end": 203
+         },
+         {
+            "start": 203,
+            "prob": 0.4545454545,
+            "end": 210
+         },
+         {
+            "start": 210,
+            "prob": 0.8181818182,
+            "end": 220
+         },
+         {
+            "start": 220,
+            "prob": 0.4545454545,
+            "end": 225
+         },
+         {
+            "start": 225,
+            "prob": 0.9090909091,
+            "end": 229
+         },
+         {
+            "start": 229,
+            "prob": 0.0909090909,
+            "end": 238
+         },
+         {
+            "start": 238,
+            "prob": 0.9090909091,
+            "end": 246
+         },
+         {
+            "start": 246,
+            "prob": 0.2727272727,
+            "end": 261
+         },
+         {
+            "start": 261,
+            "prob": 0.3636363636,
+            "end": 271
+         },
+         {
+            "start": 271,
+            "prob": 0.2727272727,
+            "end": 272
+         },
+         {
+            "start": 272,
+            "prob": 0.3636363636,
+            "end": 283
+         },
+         {
+            "start": 283,
+            "prob": 0.2727272727,
+            "end": 289
+         },
+         {
+            "start": 289,
+            "prob": 0.8181818182,
+            "end": 293
+         },
+         {
+            "start": 293,
+            "prob": 0.0909090909,
+            "end": 302
+         },
+         {
+            "start": 302,
+            "prob": 0.9090909091,
+            "end": 308
+         },
+         {
+            "start": 308,
+            "prob": 0.2727272727,
+            "end": 331
+         },
+         {
+            "start": 331,
+            "prob": 0.3636363636,
+            "end": 344
+         },
+         {
+            "start": 344,
+            "prob": 0.2727272727,
+            "end": 345
+         },
+         {
+            "start": 345,
+            "prob": 0.7272727273,
+            "end": 354
+         },
+         {
+            "start": 354,
+            "prob": 0.4545454545,
+            "end": 362
+         }
+      ],
+      "Curitiba. In Curitiba, one can find restaurants of all kinds. There are options for all tastes and palates, the regional to international cuisine. The city has food establishments specializing in German, Polish, Chinese, Arabic, Japanese, Italian, Portuguese, Indian, Mexican, etc., and, of course, regional cuisines of Brazil. Santa Felicidade neighborhood is considered to have good Italian food; it is the place where some of the first Italian immigrants arriving in Paran\u00e1 settled, where they dedicated themselves to the agricultural production, planting herbs, wine and cheese willow trees, the greatest attraction in Santa Felicidade is to be the gastronomic district of Curitiba, with a large number of restaurants offering typical food and wine from the colony. There are also wineries and wine bars, craft stores and willow furniture. According to the Guinness Book of World Records, the largest restaurant of the Americas is in this Curitiba neighborhood.",
+      "1) Jiangnan style,characterized by the use of rice and seafood; 2) Hangzhou",
+      null
+   ],
+   [
+      "val-en-7",
+      "There are 365 days in a year. So, if today's date is October 13th, then there are only 162 days left until December 31st.",
+      "If today is 14th October, and it is not a leap year, how many days remain until the end of the year?",
+      [
+         {
+            "start": 0,
+            "prob": 0.1,
+            "end": 10
+         },
+         {
+            "start": 10,
+            "prob": 0.2,
+            "end": 18
+         },
+         {
+            "start": 18,
+            "prob": 0.1,
+            "end": 53
+         },
+         {
+            "start": 53,
+            "prob": 0.4,
+            "end": 61
+         },
+         {
+            "start": 61,
+            "prob": 0.9,
+            "end": 65
+         },
+         {
+            "start": 65,
+            "prob": 0.1,
+            "end": 87
+         },
+         {
+            "start": 87,
+            "prob": 1.0,
+            "end": 90
+         },
+         {
+            "start": 90,
+            "prob": 0.3,
+            "end": 95
+         },
+         {
+            "start": 95,
+            "prob": 0.1,
+            "end": 120
+         }
+      ],
+      "October. October begins on the same day of the week as January in common years, but no other month in leap years begins on the same day of the week as October. October ends on the same day of the week as January in common years and February every year, as each other's last days are 39 weeks (273 days) and 35 weeks (245 days) apart respectively.",
+      "162 days",
+      [
+         87,
+         94
+      ]
+   ],
+   [
+      "val-en-8",
+      "The Puncher network that released this TV show is Netflix.",
+      "Which network released the TV series of the The Punisher?",
+      [
+         {
+            "start": 0,
+            "prob": 0.2727272727,
+            "end": 4
+         },
+         {
+            "start": 4,
+            "prob": 0.8181818182,
+            "end": 11
+         },
+         {
+            "start": 11,
+            "prob": 0.1818181818,
+            "end": 19
+         },
+         {
+            "start": 50,
+            "prob": 0.0909090909,
+            "end": 57
+         }
+      ],
+      "Firefly (TV series). Firefly was first broadcast on the FOX network. It was cancelled after only eleven of the fourteen episodes were shown. Even though the show did not last long, it sold very well when it was released onto DVD and had great fan support. Because of this, Whedon and Universal Pictures made a movie based on the series, titled Serenity. The movie was named after the fictional spaceship in the show.  It won an Emmy in 2003 for \"Outstanding Special Visual Effects for a Series\".",
+      "Netflix",
+      [
+         50,
+         56
+      ]
+   ],
+   [
+      "val-en-9",
+      "As of 2021, the estimated population in the region is around 1.5 million people.",
+      "What is the population of the Spanish region of Galicia?",
+      [
+         {
+            "start": 0,
+            "prob": 0.0909090909,
+            "end": 3
+         },
+         {
+            "start": 3,
+            "prob": 0.1818181818,
+            "end": 6
+         },
+         {
+            "start": 6,
+            "prob": 0.5454545455,
+            "end": 10
+         },
+         {
+            "start": 10,
+            "prob": 0.0909090909,
+            "end": 51
+         },
+         {
+            "start": 51,
+            "prob": 0.1818181818,
+            "end": 61
+         },
+         {
+            "start": 61,
+            "prob": 0.8181818182,
+            "end": 64
+         },
+         {
+            "start": 64,
+            "prob": 0.7272727273,
+            "end": 72
+         },
+         {
+            "start": 72,
+            "prob": 0.4545454545,
+            "end": 79
+         }
+      ],
+      "Galicia (Spain). Galicia or Galiza is a nationality in Spain that became a Spanish autonomous community in 1978. It is in the northwest of the Iberian Peninsula. It shares borders with Portugal to the South and the communities of Castile and Le\u00f3n and Asturias to the east.",
+      "1.5 million",
+      [
+         61,
+         71
+      ]
+   ],
+   [
+      "val-en-10",
+      "There are typically four stages in labour: the early labour stage, the active labour phase, transition, and delivery.",
+      "How many stages of labour are there in childbirth?",
+      [
+         {
+            "start": 0,
+            "prob": 0.0909090909,
+            "end": 43
+         },
+         {
+            "start": 43,
+            "prob": 0.5454545455,
+            "end": 47
+         },
+         {
+            "start": 47,
+            "prob": 0.9090909091,
+            "end": 59
+         },
+         {
+            "start": 59,
+            "prob": 0.8181818182,
+            "end": 65
+         },
+         {
+            "start": 65,
+            "prob": 0.6363636364,
+            "end": 71
+         },
+         {
+            "start": 71,
+            "prob": 0.9090909091,
+            "end": 83
+         },
+         {
+            "start": 83,
+            "prob": 0.8181818182,
+            "end": 92
+         },
+         {
+            "start": 92,
+            "prob": 1.0,
+            "end": 102
+         },
+         {
+            "start": 102,
+            "prob": 0.7272727273,
+            "end": 108
+         },
+         {
+            "start": 108,
+            "prob": 0.8181818182,
+            "end": 116
+         }
+      ],
+      "Childbirth. Childbirth, also known as labour and delivery, is the ending of pregnancy where one or more babies leaves the uterus by passing through the vagina or by Caesarean section. In 2015, there were about 135 million births globally.",
+      "Four",
+      [
+         20,
+         23
+      ]
+   ],
+   [
+      "val-en-11",
+      "The merger between Takera and Toyo Tomo took place in 2005.",
+      "When did the merger of Takara and Tomy take place?",
+      [
+         {
+            "start": 22,
+            "prob": 0.2222222222,
+            "end": 23
+         },
+         {
+            "start": 26,
+            "prob": 0.1111111111,
+            "end": 30
+         },
+         {
+            "start": 30,
+            "prob": 0.4444444444,
+            "end": 39
+         },
+         {
+            "start": 39,
+            "prob": 0.1111111111,
+            "end": 40
+         },
+         {
+            "start": 40,
+            "prob": 0.2222222222,
+            "end": 54
+         },
+         {
+            "start": 54,
+            "prob": 0.7777777778,
+            "end": 57
+         },
+         {
+            "start": 57,
+            "prob": 0.8888888889,
+            "end": 58
+         }
+      ],
+      "Tackey and Tsubasa. Tackey & Tsubasa (\u30bf\u30c3\u30ad\u30fc&\u7ffc) is a Japanese pop duo from Johnny & Associates. Its two members are Hideaki Takizawa (Japanese: \u6edd\u6ca2\u79c0\u660e, Takizawa Hideaki) and Tsubasa Imai (\u4eca\u4e95\u7ffc, Imai Tsubasa). They are known for their Japanese television dramas and they have been successful with numerous hit singles, especially \"Kamen\" and \"Venus\". Their records are produced by Avex Trax.",
+      "2005",
+      [
+         54,
+         57
+      ]
+   ],
+   [
+      "val-en-12",
+      "The Salzberg Red bull Arena is located in Austria.",
+      "In which country is the Salzburg Red Bull Arena?",
+      [
+         {
+            "start": 4,
+            "prob": 0.125,
+            "end": 12
+         },
+         {
+            "start": 17,
+            "prob": 0.125,
+            "end": 18
+         }
+      ],
+      "Salzburg. Salzburg (; ; literally \"Salt Fortress\"; ) is the capital and also a district of the Austrian state of Salzburg or Salzburgerland. The population is about 150,000 and is the 4th largest city of Austria.",
+      "Austria",
+      [
+         42,
+         48
+      ]
+   ],
+   [
+      "val-en-13",
+      "Cillerulo de san Mam\u00e9 is located in Spain.",
+      "In which country is Cilleruelo de San Mam\u00e9s located?",
+      [
+         {
+            "start": 0,
+            "prob": 0.2,
+            "end": 9
+         },
+         {
+            "start": 9,
+            "prob": 0.1,
+            "end": 17
+         },
+         {
+            "start": 17,
+            "prob": 0.2,
+            "end": 21
+         }
+      ],
+      "Orihuela. Orihuela is a city on the coast in Spain in the Alicante province, on the Segura river in a district called Vega Baja. Oranges and lemons are grown. The city has a population of 75,000 with very important historical monuments like the Cathedral and the church of Santiago, the church of Santa Justa and Rufina and the Seminarium.",
+      "Spain",
+      [
+         36,
+         40
+      ]
+   ],
+   [
+      "val-en-14",
+      "The Bleaching Kansas Civil Confrontations took place in the 1950s and 1960's.",
+      "When did the Bleeding Kansas civil confrontations take place?",
+      [
+         {
+            "start": 4,
+            "prob": 0.6363636364,
+            "end": 13
+         },
+         {
+            "start": 21,
+            "prob": 0.0909090909,
+            "end": 41
+         },
+         {
+            "start": 53,
+            "prob": 0.1818181818,
+            "end": 60
+         },
+         {
+            "start": 60,
+            "prob": 0.8181818182,
+            "end": 61
+         },
+         {
+            "start": 61,
+            "prob": 0.9090909091,
+            "end": 62
+         },
+         {
+            "start": 62,
+            "prob": 0.8181818182,
+            "end": 65
+         },
+         {
+            "start": 65,
+            "prob": 0.6363636364,
+            "end": 66
+         },
+         {
+            "start": 66,
+            "prob": 0.7272727273,
+            "end": 70
+         },
+         {
+            "start": 70,
+            "prob": 0.8181818182,
+            "end": 71
+         },
+         {
+            "start": 71,
+            "prob": 0.9090909091,
+            "end": 73
+         },
+         {
+            "start": 73,
+            "prob": 0.8181818182,
+            "end": 74
+         },
+         {
+            "start": 74,
+            "prob": 0.6363636364,
+            "end": 75
+         },
+         {
+            "start": 75,
+            "prob": 0.7272727273,
+            "end": 76
+         }
+      ],
+      "March 30. 1855 \u2013 Origins of the American Civil War: Bleeding Kansas \u2013 \"Border Ruffians\" from Missouri invade Kansas and force election of a pro-slavery legislature.",
+      "Between 1950s and 1960's",
+      null
+   ],
+   [
+      "val-en-15",
+      "The white winged cough was first discovered by the English naturalist John Latham in 1770.",
+      "Who first described the white-winged chough?",
+      [
+         {
+            "start": 17,
+            "prob": 0.3,
+            "end": 22
+         },
+         {
+            "start": 27,
+            "prob": 0.1,
+            "end": 33
+         },
+         {
+            "start": 33,
+            "prob": 0.2,
+            "end": 43
+         },
+         {
+            "start": 43,
+            "prob": 0.1,
+            "end": 51
+         },
+         {
+            "start": 51,
+            "prob": 1.0,
+            "end": 58
+         },
+         {
+            "start": 58,
+            "prob": 0.3,
+            "end": 69
+         },
+         {
+            "start": 69,
+            "prob": 0.1,
+            "end": 70
+         },
+         {
+            "start": 70,
+            "prob": 0.9,
+            "end": 75
+         },
+         {
+            "start": 75,
+            "prob": 1.0,
+            "end": 81
+         },
+         {
+            "start": 81,
+            "prob": 0.4,
+            "end": 85
+         },
+         {
+            "start": 85,
+            "prob": 0.8,
+            "end": 86
+         },
+         {
+            "start": 86,
+            "prob": 1.0,
+            "end": 89
+         }
+      ],
+      "Emu. The first written description of the emu was under the name of the New Holland Cassowary in Arthur Phillip's Voyage to Botany Bay, published in 1789. The species was named by ornithologist (bird expert) John Latham, who worked on Phillip's book. He provided the first descriptions of and names for many Australian bird species. Its scientific name, Dromaius novaehollandiae, is from the Latin words, meaning \"fast-footed New Hollander\". The history of the common name, emu, is not certain, but is thought to have come from an Arabic word for large bird. This word was later used by Portuguese explorers to describe the related Cassowary in New Guinea. In Victoria, some Indigenous Australian words for the emu were Barrimal in the Djadja wurrung language, myoure in Gunai, and courn in Jardwadjali.",
+      "John Latham",
+      [
+         70,
+         80
+      ]
+   ],
+   [
+      "val-en-16",
+      " The 26th Biathlon World Championships were held in Rasnov, Romania. The event took place from February 23 to March 5, 2013. Biathlon is a winter sport that combines cross-country skiing and rifle shooting. Competitors race while wearing cross-country skis with rifles carried over their shoulders. They must stop at specific points along the course to shoot targets with their rifles. Failure to hit all the targets within a certain time limit results in penalties, such as additional laps or extra time added to their race.",
+      "In which city were the 26th biathlon world championships held?",
+      [
+         {
+            "start": 52,
+            "prob": 1.0,
+            "end": 67
+         },
+         {
+            "start": 67,
+            "prob": 0.1,
+            "end": 90
+         },
+         {
+            "start": 90,
+            "prob": 0.2,
+            "end": 95
+         },
+         {
+            "start": 95,
+            "prob": 0.6,
+            "end": 104
+         },
+         {
+            "start": 104,
+            "prob": 0.9,
+            "end": 106
+         },
+         {
+            "start": 106,
+            "prob": 0.5,
+            "end": 110
+         },
+         {
+            "start": 110,
+            "prob": 0.9,
+            "end": 123
+         },
+         {
+            "start": 123,
+            "prob": 0.3,
+            "end": 125
+         },
+         {
+            "start": 125,
+            "prob": 0.4,
+            "end": 205
+         },
+         {
+            "start": 205,
+            "prob": 0.3,
+            "end": 207
+         },
+         {
+            "start": 207,
+            "prob": 0.4,
+            "end": 269
+         },
+         {
+            "start": 269,
+            "prob": 0.5,
+            "end": 297
+         },
+         {
+            "start": 297,
+            "prob": 0.4,
+            "end": 524
+         }
+      ],
+      "February 21. 1960 - The first Olympic biathlon is held, during the 1960 Winter Olympics in Squaw Valley, California. Over 20 kilometers, Sweden's Klas Lestander becomes the first Olympic champion in this event.",
+      "Rasnov, Romania",
+      [
+         52,
+         66
+      ]
+   ],
+   [
+      "val-en-17",
+      " The previous name of Gillette Stadium was Foxboro Stadium. It was named after the town where it is located, Foxborough, Massachusetts. The stadium underwent a major renovation and expansion in 2001, during which time it was renamed after Gillette, a leading manufacturer of razors and related products, became the new primary sponsor.",
+      "What was the previous name of the Gillette Stadium?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1111111111,
+            "end": 5
+         },
+         {
+            "start": 5,
+            "prob": 0.2222222222,
+            "end": 22
+         },
+         {
+            "start": 22,
+            "prob": 0.3333333333,
+            "end": 38
+         },
+         {
+            "start": 38,
+            "prob": 0.2222222222,
+            "end": 43
+         },
+         {
+            "start": 43,
+            "prob": 0.8888888889,
+            "end": 58
+         },
+         {
+            "start": 58,
+            "prob": 0.2222222222,
+            "end": 67
+         },
+         {
+            "start": 67,
+            "prob": 0.4444444444,
+            "end": 78
+         },
+         {
+            "start": 78,
+            "prob": 0.3333333333,
+            "end": 107
+         },
+         {
+            "start": 107,
+            "prob": 0.2222222222,
+            "end": 109
+         },
+         {
+            "start": 109,
+            "prob": 0.3333333333,
+            "end": 134
+         },
+         {
+            "start": 134,
+            "prob": 0.1111111111,
+            "end": 136
+         },
+         {
+            "start": 136,
+            "prob": 0.2222222222,
+            "end": 140
+         },
+         {
+            "start": 140,
+            "prob": 0.3333333333,
+            "end": 148
+         },
+         {
+            "start": 148,
+            "prob": 0.4444444444,
+            "end": 194
+         },
+         {
+            "start": 194,
+            "prob": 0.6666666667,
+            "end": 198
+         },
+         {
+            "start": 198,
+            "prob": 0.2222222222,
+            "end": 217
+         },
+         {
+            "start": 217,
+            "prob": 0.1111111111,
+            "end": 249
+         },
+         {
+            "start": 249,
+            "prob": 0.2222222222,
+            "end": 275
+         },
+         {
+            "start": 275,
+            "prob": 0.3333333333,
+            "end": 281
+         },
+         {
+            "start": 281,
+            "prob": 0.2222222222,
+            "end": 302
+         },
+         {
+            "start": 302,
+            "prob": 0.1111111111,
+            "end": 334
+         }
+      ],
+      "FC Dallas. From 1996 to 2002 the team played in the 92,100-capacity Cotton Bowl in Dallas. To save money the club played its 2003 home games at Dragon Stadium, a high school stadium in Southlake, a Fort Worth suburb. The club lost money in the high school stadium because Texas law does not allow the sale of alcohol on a public high school campus. The team moved back to the Cotton Bowl for the 2004 season. In August 2005, the club moved into Pizza Hut Park, a soccer stadium in the northern suburb of Frisco. The contract that allowed Pizza Hut to put its name on the stadium ended in January 2012, and the stadium was renamed FC Dallas Stadium. In September 2013, a new sponsorship contract was signed with Toyota, and the stadium was renamed Toyota Stadium. Following renovations to the south end of Toyota Stadium, the relocated National Soccer Hall of Fame opened at the stadium in October 2018.",
+      "Foxboro Stadium",
+      [
+         43,
+         57
+      ]
+   ],
+   [
+      "val-en-18",
+      " A Graphics Address Redirection Table (GART) is not exactly the same as an Input-Output (I/O) Memory Management Unit (MMU), but they do share some similarities in the sense that they both deal with memory mapping and addressing.\n\nA GART is a data structure used by graphics processing units (GPUs) to translate or map the virtual addresses used by the CPU into physical addresses in video memory. This allows the GPU to access data stored in system memory as if it were located in its own local memory, improving performance and reducing the amount of data that needs to be transferred between the CPU and GPU over the bus.\n\nOn the other hand, an I/O MMU is a hardware component that manages the memory mapping for I/O devices. It translates virtual addresses used by the CPU into physical addresses in the I/O device's memory space, allowing the CPU to access I/O devices as if they were regular memory. This can help improve system performance and security by hiding the complexities of I/O addressing from the CPU and providing a more consistent memory model for software.\n\nSo while both GARTs and I/O MMUs deal with memory mapping and addressing, they serve different purposes in the system. A GART is specifically used to map virtual addresses used by the CPU for graphics operations into physical addresses in video memory, while an I/O MMU maps virtual addresses used by the CPU for I/O operations into physical addresses in the I/O device's memory space.",
+      "Is a graphics address redressing table a type of input-output memory management unit?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1,
+            "end": 20
+         },
+         {
+            "start": 20,
+            "prob": 0.2,
+            "end": 31
+         },
+         {
+            "start": 31,
+            "prob": 0.1,
+            "end": 48
+         },
+         {
+            "start": 48,
+            "prob": 0.7,
+            "end": 51
+         },
+         {
+            "start": 51,
+            "prob": 0.6,
+            "end": 59
+         },
+         {
+            "start": 59,
+            "prob": 0.4,
+            "end": 68
+         },
+         {
+            "start": 68,
+            "prob": 0.2,
+            "end": 73
+         },
+         {
+            "start": 73,
+            "prob": 0.3,
+            "end": 74
+         },
+         {
+            "start": 74,
+            "prob": 0.2,
+            "end": 118
+         },
+         {
+            "start": 118,
+            "prob": 0.3,
+            "end": 121
+         },
+         {
+            "start": 121,
+            "prob": 0.2,
+            "end": 124
+         },
+         {
+            "start": 124,
+            "prob": 0.5,
+            "end": 127
+         },
+         {
+            "start": 127,
+            "prob": 0.4,
+            "end": 227
+         },
+         {
+            "start": 227,
+            "prob": 0.3,
+            "end": 242
+         },
+         {
+            "start": 242,
+            "prob": 0.5,
+            "end": 256
+         },
+         {
+            "start": 256,
+            "prob": 0.3,
+            "end": 298
+         },
+         {
+            "start": 298,
+            "prob": 0.4,
+            "end": 301
+         },
+         {
+            "start": 301,
+            "prob": 0.5,
+            "end": 395
+         },
+         {
+            "start": 395,
+            "prob": 0.4,
+            "end": 503
+         },
+         {
+            "start": 503,
+            "prob": 0.5,
+            "end": 524
+         },
+         {
+            "start": 524,
+            "prob": 0.4,
+            "end": 529
+         },
+         {
+            "start": 529,
+            "prob": 0.6,
+            "end": 556
+         },
+         {
+            "start": 556,
+            "prob": 0.4,
+            "end": 586
+         },
+         {
+            "start": 586,
+            "prob": 0.5,
+            "end": 622
+         },
+         {
+            "start": 622,
+            "prob": 0.2,
+            "end": 625
+         },
+         {
+            "start": 625,
+            "prob": 0.3,
+            "end": 724
+         },
+         {
+            "start": 724,
+            "prob": 0.2,
+            "end": 962
+         },
+         {
+            "start": 962,
+            "prob": 0.3,
+            "end": 1074
+         },
+         {
+            "start": 1074,
+            "prob": 0.2,
+            "end": 1151
+         },
+         {
+            "start": 1151,
+            "prob": 0.3,
+            "end": 1196
+         },
+         {
+            "start": 1196,
+            "prob": 0.4,
+            "end": 1328
+         },
+         {
+            "start": 1328,
+            "prob": 0.3,
+            "end": 1459
+         },
+         {
+            "start": 1459,
+            "prob": 0.1,
+            "end": 1460
+         }
+      ],
+      "Central processing unit. Modern CPUs often use a memory management unit (MMU). An MMU is a component that translates addresses from the CPU to (usually) different RAM addresses. When using an MMU, the addresses used in a program are (usually) not the \"real\" addresses where the data is stored. This is called virtual (the opposite of \"real\") memory. A few of the reasons why it is good to have an MMU are listed here:",
+      "No",
+      [
+         48,
+         49
+      ]
+   ],
+   [
+      "val-en-19",
+      " Captain Morgan, the brand name for a line of rum produced by Diageo, was first introduced in the United States in 1945. However, the image of Captain Morgan as a pirate with a parrot on his shoulder did not appear until 1954. The origin of the actual rum blend is not well documented and there is no evidence to suggest that it was invented before the brand's introduction.",
+      "When was Captain Morgan invented?",
+      [
+         {
+            "start": 115,
+            "prob": 0.9,
+            "end": 117
+         },
+         {
+            "start": 117,
+            "prob": 1.0,
+            "end": 119
+         },
+         {
+            "start": 119,
+            "prob": 0.4,
+            "end": 130
+         },
+         {
+            "start": 130,
+            "prob": 0.5,
+            "end": 134
+         },
+         {
+            "start": 134,
+            "prob": 0.6,
+            "end": 139
+         },
+         {
+            "start": 139,
+            "prob": 0.5,
+            "end": 163
+         },
+         {
+            "start": 163,
+            "prob": 0.8,
+            "end": 170
+         },
+         {
+            "start": 170,
+            "prob": 0.9,
+            "end": 183
+         },
+         {
+            "start": 183,
+            "prob": 0.8,
+            "end": 199
+         },
+         {
+            "start": 199,
+            "prob": 0.7,
+            "end": 200
+         },
+         {
+            "start": 200,
+            "prob": 0.9,
+            "end": 214
+         },
+         {
+            "start": 214,
+            "prob": 0.8,
+            "end": 221
+         },
+         {
+            "start": 221,
+            "prob": 1.0,
+            "end": 225
+         },
+         {
+            "start": 225,
+            "prob": 0.2,
+            "end": 227
+         },
+         {
+            "start": 227,
+            "prob": 0.4,
+            "end": 231
+         },
+         {
+            "start": 231,
+            "prob": 0.6,
+            "end": 237
+         },
+         {
+            "start": 237,
+            "prob": 0.5,
+            "end": 265
+         },
+         {
+            "start": 265,
+            "prob": 0.8,
+            "end": 268
+         },
+         {
+            "start": 268,
+            "prob": 0.7,
+            "end": 284
+         },
+         {
+            "start": 284,
+            "prob": 0.3,
+            "end": 289
+         },
+         {
+            "start": 289,
+            "prob": 0.4,
+            "end": 298
+         },
+         {
+            "start": 298,
+            "prob": 0.6,
+            "end": 320
+         },
+         {
+            "start": 320,
+            "prob": 0.5,
+            "end": 333
+         },
+         {
+            "start": 333,
+            "prob": 0.6,
+            "end": 373
+         }
+      ],
+      "February 9. 1895 - William G. Morgan creates a game called Mintonette, which later becomes better known as Volleyball.",
+      "1954",
+      [
+         221,
+         224
+      ]
+   ],
+   [
+      "val-en-20",
+      " Nizhny Tagil is a city located in the Sverdlovsk Oblast (region) of Russia. It is the third-largest city in the region, after Yekaterinburg and Nizhniy Tagil. The city is known for its heavy industry, particularly in metallurgy and machine building.",
+      "In which oblast is Nizhny Tagil located?",
+      [
+         {
+            "start": 50,
+            "prob": 0.1,
+            "end": 56
+         },
+         {
+            "start": 58,
+            "prob": 0.1,
+            "end": 64
+         },
+         {
+            "start": 77,
+            "prob": 0.1,
+            "end": 78
+         },
+         {
+            "start": 78,
+            "prob": 0.2,
+            "end": 84
+         },
+         {
+            "start": 84,
+            "prob": 0.3,
+            "end": 87
+         },
+         {
+            "start": 87,
+            "prob": 0.8,
+            "end": 100
+         },
+         {
+            "start": 100,
+            "prob": 0.7,
+            "end": 105
+         },
+         {
+            "start": 105,
+            "prob": 0.6,
+            "end": 119
+         },
+         {
+            "start": 119,
+            "prob": 0.4,
+            "end": 121
+         },
+         {
+            "start": 121,
+            "prob": 0.5,
+            "end": 127
+         },
+         {
+            "start": 127,
+            "prob": 0.7,
+            "end": 140
+         },
+         {
+            "start": 140,
+            "prob": 0.6,
+            "end": 145
+         },
+         {
+            "start": 145,
+            "prob": 0.9,
+            "end": 158
+         },
+         {
+            "start": 158,
+            "prob": 0.1,
+            "end": 186
+         },
+         {
+            "start": 186,
+            "prob": 0.2,
+            "end": 191
+         },
+         {
+            "start": 191,
+            "prob": 0.1,
+            "end": 229
+         },
+         {
+            "start": 229,
+            "prob": 0.2,
+            "end": 233
+         },
+         {
+            "start": 233,
+            "prob": 0.6,
+            "end": 249
+         }
+      ],
+      "Nizhny Novgorod. Nizhny Novgorod (Russian:\u041d\u0438\u0301\u0436\u043d\u0438\u0439 \u041d\u043e\u0301\u0432\u0433\u043e\u0440\u043e\u0434, often shortened to Nizhny) is the fourth largest city in Russia. The first three are Moscow, St.\u00a0Petersburg, Novosibirsk, Yekaterinburg and Kazan. Nizhny Novgorod had a population of 1,249,861 in 2021, and one of 1,438,133 in 1989. It is the economic and cultural center of the vast Volga-Vyatka economic region, and also the administrative center of Nizhny Novgorod Oblast and Volga Federal District.",
+      "Sverdlovsk Oblast",
+      [
+         39,
+         55
+      ]
+   ],
+   [
+      "val-en-21",
+      " Kremlin and Detinets are two distinct historical structures in Russia, although they are closely related and often associated with each other.\n\nThe Moscow Kremlin is a historic fortified complex at the heart of Moscow, Russia, which has served as the main residence of the Russian rulers since the 14th century. It includes various palaces, cathedrals, and administrative buildings. The Kremlin is surrounded by thick walls and towers, making it a formidable fortress.\n\nDetinets, on the other hand, was the original fortified core of the Moscow Kremlin. It was built in the late 13th century and served as the residence of the Grand Prince of Moscow and his court. Detinets means \"citadel\" or \"fortress\" in Russian. It is a smaller, more compact area within the larger Kremlin complex, which includes the Cathedral Square with its famous cathedrals such as St. Basil's Cathedral and the Archangel Michael Cathedral.\n\nSo while both structures are fortified complexes and have served residential and administrative functions, the Moscow Kremlin is a larger complex that includes Detinets as one of its parts.",
+      "Are kremlins similar to detinets?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1111111111,
+            "end": 13
+         },
+         {
+            "start": 13,
+            "prob": 0.2222222222,
+            "end": 21
+         },
+         {
+            "start": 26,
+            "prob": 0.1111111111,
+            "end": 38
+         },
+         {
+            "start": 39,
+            "prob": 0.1111111111,
+            "end": 70
+         },
+         {
+            "start": 75,
+            "prob": 0.1111111111,
+            "end": 90
+         },
+         {
+            "start": 90,
+            "prob": 0.2222222222,
+            "end": 142
+         },
+         {
+            "start": 142,
+            "prob": 0.1111111111,
+            "end": 196
+         },
+         {
+            "start": 196,
+            "prob": 0.2222222222,
+            "end": 203
+         },
+         {
+            "start": 203,
+            "prob": 0.3333333333,
+            "end": 208
+         },
+         {
+            "start": 208,
+            "prob": 0.2222222222,
+            "end": 226
+         },
+         {
+            "start": 226,
+            "prob": 0.1111111111,
+            "end": 252
+         },
+         {
+            "start": 252,
+            "prob": 0.2222222222,
+            "end": 313
+         },
+         {
+            "start": 313,
+            "prob": 0.3333333333,
+            "end": 342
+         },
+         {
+            "start": 342,
+            "prob": 0.4444444444,
+            "end": 357
+         },
+         {
+            "start": 357,
+            "prob": 0.3333333333,
+            "end": 358
+         },
+         {
+            "start": 358,
+            "prob": 0.4444444444,
+            "end": 382
+         },
+         {
+            "start": 382,
+            "prob": 0.2222222222,
+            "end": 399
+         },
+         {
+            "start": 399,
+            "prob": 0.3333333333,
+            "end": 418
+         },
+         {
+            "start": 418,
+            "prob": 0.2222222222,
+            "end": 419
+         },
+         {
+            "start": 419,
+            "prob": 0.3333333333,
+            "end": 435
+         },
+         {
+            "start": 435,
+            "prob": 0.2222222222,
+            "end": 446
+         },
+         {
+            "start": 446,
+            "prob": 0.1111111111,
+            "end": 471
+         },
+         {
+            "start": 471,
+            "prob": 0.4444444444,
+            "end": 481
+         },
+         {
+            "start": 481,
+            "prob": 0.5555555556,
+            "end": 504
+         },
+         {
+            "start": 504,
+            "prob": 0.6666666667,
+            "end": 575
+         },
+         {
+            "start": 575,
+            "prob": 0.7777777778,
+            "end": 592
+         },
+         {
+            "start": 592,
+            "prob": 0.6666666667,
+            "end": 597
+         },
+         {
+            "start": 597,
+            "prob": 0.7777777778,
+            "end": 643
+         },
+         {
+            "start": 643,
+            "prob": 0.6666666667,
+            "end": 645
+         },
+         {
+            "start": 645,
+            "prob": 0.7777777778,
+            "end": 650
+         },
+         {
+            "start": 650,
+            "prob": 0.6666666667,
+            "end": 664
+         },
+         {
+            "start": 664,
+            "prob": 0.2222222222,
+            "end": 675
+         },
+         {
+            "start": 675,
+            "prob": 0.3333333333,
+            "end": 693
+         },
+         {
+            "start": 693,
+            "prob": 0.1111111111,
+            "end": 695
+         },
+         {
+            "start": 695,
+            "prob": 0.2222222222,
+            "end": 703
+         },
+         {
+            "start": 703,
+            "prob": 0.1111111111,
+            "end": 705
+         },
+         {
+            "start": 705,
+            "prob": 0.2222222222,
+            "end": 717
+         },
+         {
+            "start": 717,
+            "prob": 0.5555555556,
+            "end": 793
+         },
+         {
+            "start": 793,
+            "prob": 0.6666666667,
+            "end": 802
+         },
+         {
+            "start": 802,
+            "prob": 0.7777777778,
+            "end": 915
+         },
+         {
+            "start": 915,
+            "prob": 0.5555555556,
+            "end": 930
+         },
+         {
+            "start": 930,
+            "prob": 0.4444444444,
+            "end": 967
+         },
+         {
+            "start": 967,
+            "prob": 0.5555555556,
+            "end": 1028
+         },
+         {
+            "start": 1028,
+            "prob": 0.4444444444,
+            "end": 1034
+         },
+         {
+            "start": 1034,
+            "prob": 0.3333333333,
+            "end": 1064
+         },
+         {
+            "start": 1064,
+            "prob": 0.4444444444,
+            "end": 1069
+         },
+         {
+            "start": 1069,
+            "prob": 0.5555555556,
+            "end": 1105
+         },
+         {
+            "start": 1105,
+            "prob": 0.4444444444,
+            "end": 1106
+         }
+      ],
+      "Peanut. These are alike, except for the color of the seed. The plants are similar to Valencia types, except that the stems are green to greenish brown, and the pods are rough, irregular, and have a smaller proportion of kernels.",
+      "yes",
+      null
+   ],
+   [
+      "val-en-22",
+      " Hamilton Academical Football Club plays their home matches at New Douglas Park, which is located in Hamilton, South Lanarkshire, Scotland. The stadium has a capacity of around 6,000 and has been the home ground of Hamilton Academical since 1878, making it one of the oldest football grounds in the world still in use by a single club.",
+      "Where do Hamilton Academical F.C.'s play their home matches?",
+      [
+         {
+            "start": 60,
+            "prob": 0.1,
+            "end": 79
+         },
+         {
+            "start": 98,
+            "prob": 0.2,
+            "end": 138
+         },
+         {
+            "start": 177,
+            "prob": 0.1,
+            "end": 182
+         },
+         {
+            "start": 215,
+            "prob": 0.1,
+            "end": 234
+         },
+         {
+            "start": 235,
+            "prob": 0.1,
+            "end": 241
+         },
+         {
+            "start": 241,
+            "prob": 0.8,
+            "end": 245
+         },
+         {
+            "start": 245,
+            "prob": 0.5,
+            "end": 247
+         },
+         {
+            "start": 247,
+            "prob": 0.6,
+            "end": 253
+         },
+         {
+            "start": 253,
+            "prob": 0.5,
+            "end": 254
+         },
+         {
+            "start": 254,
+            "prob": 0.6,
+            "end": 260
+         },
+         {
+            "start": 260,
+            "prob": 0.5,
+            "end": 268
+         },
+         {
+            "start": 268,
+            "prob": 0.8,
+            "end": 274
+         },
+         {
+            "start": 274,
+            "prob": 0.6,
+            "end": 283
+         },
+         {
+            "start": 283,
+            "prob": 0.5,
+            "end": 284
+         },
+         {
+            "start": 284,
+            "prob": 0.6,
+            "end": 294
+         },
+         {
+            "start": 294,
+            "prob": 0.5,
+            "end": 299
+         },
+         {
+            "start": 299,
+            "prob": 0.6,
+            "end": 304
+         },
+         {
+            "start": 304,
+            "prob": 0.5,
+            "end": 334
+         }
+      ],
+      "Hamilton, Ontario. There are a few professional sports in Hamilton. The Tiger-Cats of the Canadian Football League play at Ivor Wynne Stadium. Hamilton would like a National Hockey League team but it does not have one. The Hamilton Bulldogs of the Ontario Hockey League  play at Copps Coliseum.",
+      "New Douglas Park",
+      [
+         63,
+         78
+      ]
+   ],
+   [
+      "val-en-23",
+      " The municipality of Delley-Portalban was created on January 1, 2004. It was formed through the merger of two neighboring communes, Delley and Portalban, as part of a wave of municipal consolidations in Switzerland.",
+      "When was the municipality of Delley-Portalban created?",
+      [
+         {
+            "start": 42,
+            "prob": 0.1,
+            "end": 53
+         },
+         {
+            "start": 53,
+            "prob": 0.3,
+            "end": 64
+         },
+         {
+            "start": 64,
+            "prob": 0.9,
+            "end": 67
+         },
+         {
+            "start": 67,
+            "prob": 1.0,
+            "end": 68
+         },
+         {
+            "start": 110,
+            "prob": 0.1,
+            "end": 122
+         },
+         {
+            "start": 122,
+            "prob": 0.2,
+            "end": 130
+         },
+         {
+            "start": 154,
+            "prob": 0.5,
+            "end": 157
+         },
+         {
+            "start": 157,
+            "prob": 0.6,
+            "end": 167
+         },
+         {
+            "start": 167,
+            "prob": 0.7,
+            "end": 171
+         },
+         {
+            "start": 171,
+            "prob": 0.6,
+            "end": 175
+         },
+         {
+            "start": 175,
+            "prob": 0.7,
+            "end": 199
+         },
+         {
+            "start": 199,
+            "prob": 0.6,
+            "end": 214
+         }
+      ],
+      "Torbay. Torbay was first created as a county borough in 1967, uniting the urban districts of its three towns. In 1974 it became a borough of Devon, its surrounding county. Then in 1993 It was given unitary authority status, having the powers of both a borough and a county. In 2007 a referendum led to the adoption of a directly elected Mayor.",
+      "January 1, 2004",
+      [
+         53,
+         67
+      ]
+   ],
+   [
+      "val-en-24",
+      " The World Chess Federation, also known as FIDE (F\u00e9d\u00e9ration Internationale des \u00c9checs), is not based in any one specific country. It is an international organization with its headquarters currently located in Minsk, Belarus. However, it maintains offices in several countries and holds various events around the world.",
+      "Which country is the World Chess Federation based in?",
+      [
+         {
+            "start": 88,
+            "prob": 0.2727272727,
+            "end": 89
+         },
+         {
+            "start": 89,
+            "prob": 0.3636363636,
+            "end": 91
+         },
+         {
+            "start": 91,
+            "prob": 0.9090909091,
+            "end": 100
+         },
+         {
+            "start": 100,
+            "prob": 0.8181818182,
+            "end": 101
+         },
+         {
+            "start": 101,
+            "prob": 0.9090909091,
+            "end": 107
+         },
+         {
+            "start": 107,
+            "prob": 0.8181818182,
+            "end": 108
+         },
+         {
+            "start": 108,
+            "prob": 0.9090909091,
+            "end": 120
+         },
+         {
+            "start": 120,
+            "prob": 0.8181818182,
+            "end": 121
+         },
+         {
+            "start": 121,
+            "prob": 0.9090909091,
+            "end": 128
+         },
+         {
+            "start": 131,
+            "prob": 0.0909090909,
+            "end": 209
+         },
+         {
+            "start": 209,
+            "prob": 1.0,
+            "end": 223
+         },
+         {
+            "start": 237,
+            "prob": 0.5454545455,
+            "end": 254
+         },
+         {
+            "start": 254,
+            "prob": 0.4545454545,
+            "end": 258
+         },
+         {
+            "start": 258,
+            "prob": 0.5454545455,
+            "end": 275
+         },
+         {
+            "start": 275,
+            "prob": 0.0909090909,
+            "end": 279
+         },
+         {
+            "start": 280,
+            "prob": 0.0909090909,
+            "end": 285
+         },
+         {
+            "start": 294,
+            "prob": 0.0909090909,
+            "end": 300
+         }
+      ],
+      "Chess. The rules of chess are governed by the World Chess Federation, which is known by the initials FIDE, meaning F\u00e9d\u00e9ration Internationale des \u00c9checs. The rules are in the section Laws of Chess of the FIDE Handbook. FIDE also give rules and guidelines for chess tournaments.",
+      "Belarus",
+      [
+         216,
+         222
+      ]
+   ],
+   [
+      "val-en-25",
+      " I apologize for any confusion, but there seems to be a missing context in your question. Gampel and Bratsch are indeed two municipalities located in the canton of Graub\u00fcnden in Switzerland. However, they were not merged into one single municipality. They have remained separate entities up until now. Therefore, there is no year to provide as an answer for this question.",
+      "In which year were the Gampel and Bratsch municipalities merged?",
+      [
+         {
+            "start": 1,
+            "prob": 0.3,
+            "end": 88
+         },
+         {
+            "start": 88,
+            "prob": 0.2,
+            "end": 139
+         },
+         {
+            "start": 139,
+            "prob": 0.3,
+            "end": 164
+         },
+         {
+            "start": 164,
+            "prob": 0.6,
+            "end": 174
+         },
+         {
+            "start": 174,
+            "prob": 0.2,
+            "end": 191
+         },
+         {
+            "start": 191,
+            "prob": 0.5,
+            "end": 200
+         },
+         {
+            "start": 200,
+            "prob": 0.7,
+            "end": 201
+         },
+         {
+            "start": 201,
+            "prob": 0.8,
+            "end": 205
+         },
+         {
+            "start": 205,
+            "prob": 0.9,
+            "end": 210
+         },
+         {
+            "start": 210,
+            "prob": 1.0,
+            "end": 213
+         },
+         {
+            "start": 213,
+            "prob": 0.9,
+            "end": 220
+         },
+         {
+            "start": 220,
+            "prob": 0.8,
+            "end": 256
+         },
+         {
+            "start": 256,
+            "prob": 0.9,
+            "end": 269
+         },
+         {
+            "start": 269,
+            "prob": 0.8,
+            "end": 297
+         },
+         {
+            "start": 297,
+            "prob": 0.9,
+            "end": 300
+         },
+         {
+            "start": 300,
+            "prob": 0.5,
+            "end": 322
+         },
+         {
+            "start": 322,
+            "prob": 0.7,
+            "end": 324
+         },
+         {
+            "start": 324,
+            "prob": 0.6,
+            "end": 353
+         },
+         {
+            "start": 353,
+            "prob": 0.5,
+            "end": 371
+         }
+      ],
+      "G\u00f6ppingen. G\u00f6ppingen (, Gebbeng, or Geppenge) is a town in Baden-W\u00fcrttemberg, Germany. In 2005, there were 57,771 people living there. It is at the bottom of the  high \"Kaiserberg\", or \"Emperors' Mountain\".",
+      "In 2005",
+      null
+   ],
+   [
+      "val-en-26",
+      " Yes, the Arts and Humanities Citation Index (AHCI) is still maintained and updated by Clarivate Analytics. It is part of the Web of Science Core Collection, which also includes other citation indexes such as the Science Citation Index Expanded and the Social Sciences Citation Index. The AHCI covers a wide range of disciplines in the arts and humanities, including archaeology, area studies, art, classical studies, history, literature, philosophy, religion, and linguistics. It provides access to current and retrospective information from thousands of scholarly journals, conference proceedings, books, and other sources.",
+      "Is the Arts and Humanities Citation Index still maintained?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1,
+            "end": 4
+         },
+         {
+            "start": 6,
+            "prob": 0.1,
+            "end": 50
+         },
+         {
+            "start": 87,
+            "prob": 0.3,
+            "end": 106
+         },
+         {
+            "start": 141,
+            "prob": 0.6,
+            "end": 156
+         },
+         {
+            "start": 156,
+            "prob": 0.3,
+            "end": 158
+         },
+         {
+            "start": 158,
+            "prob": 0.4,
+            "end": 164
+         },
+         {
+            "start": 164,
+            "prob": 0.5,
+            "end": 169
+         },
+         {
+            "start": 169,
+            "prob": 0.6,
+            "end": 177
+         },
+         {
+            "start": 177,
+            "prob": 0.5,
+            "end": 183
+         },
+         {
+            "start": 183,
+            "prob": 0.4,
+            "end": 184
+         },
+         {
+            "start": 184,
+            "prob": 0.5,
+            "end": 200
+         },
+         {
+            "start": 200,
+            "prob": 0.4,
+            "end": 208
+         },
+         {
+            "start": 208,
+            "prob": 0.3,
+            "end": 213
+         },
+         {
+            "start": 213,
+            "prob": 0.6,
+            "end": 229
+         },
+         {
+            "start": 229,
+            "prob": 0.5,
+            "end": 230
+         },
+         {
+            "start": 230,
+            "prob": 0.6,
+            "end": 235
+         },
+         {
+            "start": 235,
+            "prob": 0.5,
+            "end": 244
+         },
+         {
+            "start": 244,
+            "prob": 0.3,
+            "end": 253
+         },
+         {
+            "start": 253,
+            "prob": 0.5,
+            "end": 268
+         },
+         {
+            "start": 268,
+            "prob": 0.4,
+            "end": 269
+         },
+         {
+            "start": 269,
+            "prob": 0.5,
+            "end": 283
+         },
+         {
+            "start": 289,
+            "prob": 0.1,
+            "end": 293
+         },
+         {
+            "start": 336,
+            "prob": 0.1,
+            "end": 355
+         },
+         {
+            "start": 380,
+            "prob": 0.6,
+            "end": 392
+         },
+         {
+            "start": 399,
+            "prob": 0.1,
+            "end": 416
+         },
+         {
+            "start": 427,
+            "prob": 0.4,
+            "end": 437
+         },
+         {
+            "start": 543,
+            "prob": 0.1,
+            "end": 552
+         },
+         {
+            "start": 576,
+            "prob": 0.5,
+            "end": 598
+         },
+         {
+            "start": 598,
+            "prob": 0.1,
+            "end": 605
+         }
+      ],
+      "Humanities. The humanities include languages, literature, music, philosophy, politics, history, media, the classics, religion, and the visual and performing arts. Additional subjects sometimes included in the humanities are anthropology, area studies, communications and cultural studies, although these are often regarded as social sciences. It was popular in the Renaissance ages.",
+      "Yes",
+      [
+         1,
+         3
+      ]
+   ],
+   [
+      "val-en-27",
+      " In the television series \"White Collar,\" which aired from 2009 to 2014, there isn't a specific character named as the head of the FBI's White Collar Crimes Unit. However, the main protagonist is Neal Caffrey (played by Matt Bomer), who is a former white-collar criminal and art forger who works as a consultant for the FBI in solving white-collar crimes. The agent in charge of overseeing Neal's work is Peter Burke (played by Tim DeKay). So, while Peter Burke isn't the head of the White Collar Crimes Unit per se, he plays a significant role in managing and coordinating the investigations.",
+      "Who is the head of the FBI\u2019s White Collar Crimes Unit in the series White Collar?",
+      [
+         {
+            "start": 73,
+            "prob": 0.4,
+            "end": 79
+         },
+         {
+            "start": 79,
+            "prob": 0.8,
+            "end": 84
+         },
+         {
+            "start": 84,
+            "prob": 0.4,
+            "end": 87
+         },
+         {
+            "start": 87,
+            "prob": 0.5,
+            "end": 105
+         },
+         {
+            "start": 105,
+            "prob": 0.4,
+            "end": 111
+         },
+         {
+            "start": 111,
+            "prob": 0.3,
+            "end": 123
+         },
+         {
+            "start": 123,
+            "prob": 0.2,
+            "end": 161
+         },
+         {
+            "start": 161,
+            "prob": 0.1,
+            "end": 163
+         },
+         {
+            "start": 163,
+            "prob": 0.2,
+            "end": 170
+         },
+         {
+            "start": 170,
+            "prob": 0.1,
+            "end": 176
+         },
+         {
+            "start": 176,
+            "prob": 0.2,
+            "end": 208
+         },
+         {
+            "start": 208,
+            "prob": 0.1,
+            "end": 242
+         },
+         {
+            "start": 242,
+            "prob": 0.2,
+            "end": 261
+         },
+         {
+            "start": 261,
+            "prob": 0.1,
+            "end": 275
+         },
+         {
+            "start": 275,
+            "prob": 0.3,
+            "end": 278
+         },
+         {
+            "start": 278,
+            "prob": 0.2,
+            "end": 285
+         },
+         {
+            "start": 285,
+            "prob": 0.1,
+            "end": 379
+         },
+         {
+            "start": 379,
+            "prob": 0.2,
+            "end": 437
+         },
+         {
+            "start": 437,
+            "prob": 0.1,
+            "end": 440
+         },
+         {
+            "start": 440,
+            "prob": 0.3,
+            "end": 444
+         },
+         {
+            "start": 444,
+            "prob": 0.4,
+            "end": 449
+         },
+         {
+            "start": 449,
+            "prob": 0.2,
+            "end": 450
+         },
+         {
+            "start": 450,
+            "prob": 0.3,
+            "end": 462
+         },
+         {
+            "start": 462,
+            "prob": 0.7,
+            "end": 464
+         },
+         {
+            "start": 464,
+            "prob": 0.8,
+            "end": 467
+         },
+         {
+            "start": 467,
+            "prob": 0.3,
+            "end": 508
+         },
+         {
+            "start": 508,
+            "prob": 0.2,
+            "end": 509
+         },
+         {
+            "start": 509,
+            "prob": 0.5,
+            "end": 515
+         },
+         {
+            "start": 515,
+            "prob": 0.3,
+            "end": 592
+         }
+      ],
+      "Mafia. (Note: in more recent years the leaders of the Colombo crime family have been Carmine Persico, Andrew Russo, Alphonse Persico, Jr., Joel Cacace, Thomas Gioeli, John Franzese, Vincent Aloi and Paul Bevacqua but not necessarily as bosses.)",
+      "Peter Burke",
+      [
+         405,
+         415
+      ]
+   ],
+   [
+      "val-en-28",
+      " It is not possible to identify a single physician as the first to treat patients with cerebral palsy, as the condition was likely not recognized as a distinct entity until much later. Cerebral palsy is a group of disorders that affect muscle coordination and movement, often caused by damage to the developing brain before or during birth. The term \"cerebral palsy\" was first used in 1845 by Dr. John Hinton, but it was not until the late 19th and early 20th centuries that the condition began to be better understood and diagnosed. Early treatments for cerebral palsy focused on managing symptoms through physical therapy, orthopedic interventions, and the use of braces or other assistive devices.",
+      "Who was the first physician to treat patients for cerebral palsy? ",
+      [
+         {
+            "start": 1,
+            "prob": 0.3333333333,
+            "end": 7
+         },
+         {
+            "start": 7,
+            "prob": 0.6666666667,
+            "end": 19
+         },
+         {
+            "start": 19,
+            "prob": 0.4444444444,
+            "end": 23
+         },
+         {
+            "start": 23,
+            "prob": 0.5555555556,
+            "end": 33
+         },
+         {
+            "start": 33,
+            "prob": 0.4444444444,
+            "end": 50
+         },
+         {
+            "start": 50,
+            "prob": 0.2222222222,
+            "end": 101
+         },
+         {
+            "start": 101,
+            "prob": 0.1111111111,
+            "end": 103
+         },
+         {
+            "start": 103,
+            "prob": 0.2222222222,
+            "end": 131
+         },
+         {
+            "start": 131,
+            "prob": 0.3333333333,
+            "end": 135
+         },
+         {
+            "start": 135,
+            "prob": 0.4444444444,
+            "end": 166
+         },
+         {
+            "start": 166,
+            "prob": 0.3333333333,
+            "end": 183
+         },
+         {
+            "start": 183,
+            "prob": 0.1111111111,
+            "end": 270
+         },
+         {
+            "start": 270,
+            "prob": 0.2222222222,
+            "end": 275
+         },
+         {
+            "start": 275,
+            "prob": 0.1111111111,
+            "end": 327
+         },
+         {
+            "start": 327,
+            "prob": 0.2222222222,
+            "end": 333
+         },
+         {
+            "start": 333,
+            "prob": 0.1111111111,
+            "end": 341
+         },
+         {
+            "start": 341,
+            "prob": 0.2222222222,
+            "end": 367
+         },
+         {
+            "start": 367,
+            "prob": 0.3333333333,
+            "end": 385
+         },
+         {
+            "start": 385,
+            "prob": 1.0,
+            "end": 389
+         },
+         {
+            "start": 389,
+            "prob": 0.4444444444,
+            "end": 393
+         },
+         {
+            "start": 393,
+            "prob": 1.0,
+            "end": 408
+         },
+         {
+            "start": 408,
+            "prob": 0.2222222222,
+            "end": 435
+         },
+         {
+            "start": 435,
+            "prob": 0.3333333333,
+            "end": 439
+         },
+         {
+            "start": 439,
+            "prob": 0.2222222222,
+            "end": 532
+         },
+         {
+            "start": 532,
+            "prob": 0.1111111111,
+            "end": 534
+         },
+         {
+            "start": 534,
+            "prob": 0.3333333333,
+            "end": 539
+         },
+         {
+            "start": 539,
+            "prob": 0.1111111111,
+            "end": 655
+         },
+         {
+            "start": 655,
+            "prob": 0.2222222222,
+            "end": 699
+         }
+      ],
+      "March 14. 1942 - Orvan Hess and John Bumstead become the first doctors in the US to treat a patient, Anne Miller, using penicillin.",
+      "Orvan Hess and John Bumstead",
+      null
+   ],
+   [
+      "val-en-29",
+      " The largest ethnic group in Katsina State, Nigeria, is the Hausa-Fulani people. They make up the vast majority of the population in the state. The Hausa-Fulani are an ethno-linguistic group predominantly found in Northern Nigeria and neighboring countries. They are primarily farmers, traders, and herders.",
+      "What is the largest ethnic group in Katsina state?",
+      [
+         {
+            "start": 60,
+            "prob": 0.0909090909,
+            "end": 65
+         },
+         {
+            "start": 66,
+            "prob": 0.9090909091,
+            "end": 72
+         },
+         {
+            "start": 72,
+            "prob": 0.2727272727,
+            "end": 79
+         },
+         {
+            "start": 79,
+            "prob": 0.0909090909,
+            "end": 81
+         },
+         {
+            "start": 81,
+            "prob": 0.1818181818,
+            "end": 98
+         },
+         {
+            "start": 98,
+            "prob": 0.3636363636,
+            "end": 102
+         },
+         {
+            "start": 102,
+            "prob": 0.2727272727,
+            "end": 111
+         },
+         {
+            "start": 111,
+            "prob": 0.1818181818,
+            "end": 144
+         },
+         {
+            "start": 144,
+            "prob": 0.2727272727,
+            "end": 148
+         },
+         {
+            "start": 148,
+            "prob": 0.3636363636,
+            "end": 153
+         },
+         {
+            "start": 153,
+            "prob": 0.2727272727,
+            "end": 154
+         },
+         {
+            "start": 154,
+            "prob": 0.7272727273,
+            "end": 160
+         },
+         {
+            "start": 160,
+            "prob": 0.2727272727,
+            "end": 191
+         },
+         {
+            "start": 191,
+            "prob": 0.4545454545,
+            "end": 210
+         },
+         {
+            "start": 210,
+            "prob": 0.3636363636,
+            "end": 258
+         },
+         {
+            "start": 258,
+            "prob": 0.5454545455,
+            "end": 277
+         },
+         {
+            "start": 277,
+            "prob": 0.7272727273,
+            "end": 284
+         },
+         {
+            "start": 284,
+            "prob": 0.6363636364,
+            "end": 286
+         },
+         {
+            "start": 286,
+            "prob": 0.7272727273,
+            "end": 293
+         },
+         {
+            "start": 293,
+            "prob": 0.5454545455,
+            "end": 299
+         },
+         {
+            "start": 299,
+            "prob": 0.7272727273,
+            "end": 306
+         }
+      ],
+      "Eritrea. The majority of the Tigrinya inhabit the highlands of Eritrea; however, migration to other parts of the country has occurred. Their language is called Tigrinya. They are the largest ethnic group in the country, constituting about 60% of the population. The predominantly Tigrinya populated urban centers in Eritrea are the capital Asmara, Mendefera, Dekemhare, Adi Keyh, Adi Quala and Senafe, while there is a significant population of Tigrinya in other cities including Keren, and Massawa.",
+      "Hausa-Fulani people",
+      [
+         60,
+         78
+      ]
+   ],
+   [
+      "val-en-30",
+      " Before the Civil War, Valrico, Florida was not a well-known or established settlement. The area around Valrico was originally inhabited by various Native American tribes, including the Seminoles. The first European settlers arrived in the mid-1800s, and the community began to develop after the completion of the Tampa-Hillsborough Railroad in 1885. Therefore, there is no recorded history of Valrico before the Civil War.",
+      "What was Valrico, Florida known as before the Civil War?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1818181818,
+            "end": 44
+         },
+         {
+            "start": 44,
+            "prob": 0.9090909091,
+            "end": 54
+         },
+         {
+            "start": 54,
+            "prob": 0.8181818182,
+            "end": 61
+         },
+         {
+            "start": 61,
+            "prob": 0.9090909091,
+            "end": 86
+         },
+         {
+            "start": 86,
+            "prob": 0.2727272727,
+            "end": 92
+         },
+         {
+            "start": 92,
+            "prob": 0.3636363636,
+            "end": 116
+         },
+         {
+            "start": 116,
+            "prob": 0.7272727273,
+            "end": 127
+         },
+         {
+            "start": 127,
+            "prob": 0.9090909091,
+            "end": 148
+         },
+         {
+            "start": 148,
+            "prob": 1.0,
+            "end": 170
+         },
+         {
+            "start": 170,
+            "prob": 0.8181818182,
+            "end": 186
+         },
+         {
+            "start": 186,
+            "prob": 1.0,
+            "end": 195
+         },
+         {
+            "start": 195,
+            "prob": 0.3636363636,
+            "end": 201
+         },
+         {
+            "start": 201,
+            "prob": 1.0,
+            "end": 224
+         },
+         {
+            "start": 224,
+            "prob": 0.7272727273,
+            "end": 240
+         },
+         {
+            "start": 240,
+            "prob": 0.9090909091,
+            "end": 243
+         },
+         {
+            "start": 243,
+            "prob": 0.8181818182,
+            "end": 249
+         },
+         {
+            "start": 249,
+            "prob": 0.3636363636,
+            "end": 286
+         },
+         {
+            "start": 286,
+            "prob": 0.4545454545,
+            "end": 314
+         },
+         {
+            "start": 314,
+            "prob": 1.0,
+            "end": 332
+         },
+         {
+            "start": 332,
+            "prob": 0.9090909091,
+            "end": 341
+         },
+         {
+            "start": 341,
+            "prob": 0.8181818182,
+            "end": 345
+         },
+         {
+            "start": 345,
+            "prob": 1.0,
+            "end": 349
+         },
+         {
+            "start": 349,
+            "prob": 0.4545454545,
+            "end": 360
+         },
+         {
+            "start": 360,
+            "prob": 0.3636363636,
+            "end": 362
+         },
+         {
+            "start": 362,
+            "prob": 0.5454545455,
+            "end": 371
+         },
+         {
+            "start": 371,
+            "prob": 0.7272727273,
+            "end": 382
+         },
+         {
+            "start": 382,
+            "prob": 0.6363636364,
+            "end": 422
+         }
+      ],
+      "Orlando, Florida. Before the American Civil War, Orlando was a center of trade in cattle.  After the war, many people came to the town.  Orlando became a city in 1875.  Before 1900, Orlando was a center of orange farming.  After 1900, it became a popular place for visitors.",
+      "Well-known or established settlement",
+      [
+         50,
+         85
+      ]
+   ],
+   [
+      "val-en-31",
+      " A Western Oriole is a medium-sized bird, with an average length of 15.3 cm (6 inches) and a wingspan of around 20.3 cm (8 inches). They weigh between 19-34 grams (0.7-1.2 ounces). Their bill is long and curved, typically measuring about 3.5 cm (1.4 inches) in length.",
+      "How big is a western oriole?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1,
+            "end": 23
+         },
+         {
+            "start": 23,
+            "prob": 0.5,
+            "end": 35
+         },
+         {
+            "start": 35,
+            "prob": 0.2,
+            "end": 42
+         },
+         {
+            "start": 42,
+            "prob": 0.3,
+            "end": 46
+         },
+         {
+            "start": 46,
+            "prob": 0.2,
+            "end": 47
+         },
+         {
+            "start": 47,
+            "prob": 0.3,
+            "end": 48
+         },
+         {
+            "start": 48,
+            "prob": 0.4,
+            "end": 50
+         },
+         {
+            "start": 50,
+            "prob": 0.5,
+            "end": 57
+         },
+         {
+            "start": 57,
+            "prob": 0.4,
+            "end": 68
+         },
+         {
+            "start": 68,
+            "prob": 1.0,
+            "end": 72
+         },
+         {
+            "start": 72,
+            "prob": 0.7,
+            "end": 77
+         },
+         {
+            "start": 77,
+            "prob": 1.0,
+            "end": 78
+         },
+         {
+            "start": 78,
+            "prob": 0.7,
+            "end": 85
+         },
+         {
+            "start": 85,
+            "prob": 0.4,
+            "end": 87
+         },
+         {
+            "start": 87,
+            "prob": 0.5,
+            "end": 93
+         },
+         {
+            "start": 93,
+            "prob": 0.9,
+            "end": 101
+         },
+         {
+            "start": 101,
+            "prob": 0.7,
+            "end": 112
+         },
+         {
+            "start": 112,
+            "prob": 1.0,
+            "end": 116
+         },
+         {
+            "start": 116,
+            "prob": 0.9,
+            "end": 121
+         },
+         {
+            "start": 121,
+            "prob": 1.0,
+            "end": 122
+         },
+         {
+            "start": 122,
+            "prob": 0.9,
+            "end": 129
+         },
+         {
+            "start": 129,
+            "prob": 0.3,
+            "end": 151
+         },
+         {
+            "start": 151,
+            "prob": 0.9,
+            "end": 156
+         },
+         {
+            "start": 156,
+            "prob": 0.6,
+            "end": 164
+         },
+         {
+            "start": 164,
+            "prob": 0.9,
+            "end": 171
+         },
+         {
+            "start": 171,
+            "prob": 0.6,
+            "end": 178
+         },
+         {
+            "start": 178,
+            "prob": 0.2,
+            "end": 181
+         },
+         {
+            "start": 181,
+            "prob": 0.3,
+            "end": 187
+         },
+         {
+            "start": 187,
+            "prob": 0.8,
+            "end": 191
+         },
+         {
+            "start": 191,
+            "prob": 0.4,
+            "end": 195
+         },
+         {
+            "start": 195,
+            "prob": 0.8,
+            "end": 199
+         },
+         {
+            "start": 199,
+            "prob": 0.7,
+            "end": 204
+         },
+         {
+            "start": 204,
+            "prob": 0.8,
+            "end": 210
+         },
+         {
+            "start": 210,
+            "prob": 0.4,
+            "end": 238
+         },
+         {
+            "start": 238,
+            "prob": 0.8,
+            "end": 241
+         },
+         {
+            "start": 241,
+            "prob": 0.7,
+            "end": 246
+         },
+         {
+            "start": 246,
+            "prob": 0.8,
+            "end": 249
+         },
+         {
+            "start": 249,
+            "prob": 0.7,
+            "end": 256
+         },
+         {
+            "start": 256,
+            "prob": 0.5,
+            "end": 267
+         }
+      ],
+      "Ornithomimus. Ornithomimus edmonticus was the largest species, 12 ft (3.5 meters) long, 7 feet (2.10 meters) high and weighed about 100-150\u00a0kg. It walked on two legs and looked slightly like an ostrich, except for its long tail.",
+      "Medium-sized",
+      [
+         23,
+         34
+      ]
+   ],
+   [
+      "val-en-32",
+      " No, Windows Neptune was not released. It was an internal project by Microsoft that aimed to merge the user interfaces of Windows XP and Windows Tablet PC Edition into a single operating system. The project was later merged with another project called Windows Longhorn, which eventually became Windows Vista. However, neither Neptune nor Longhorn were released as standalone products; instead, their features were incorporated into Windows Vista, which was released in January 2007.",
+      "Was windows neptune ever released?",
+      [
+         {
+            "start": 49,
+            "prob": 0.1,
+            "end": 69
+         },
+         {
+            "start": 69,
+            "prob": 0.2,
+            "end": 79
+         },
+         {
+            "start": 79,
+            "prob": 0.3,
+            "end": 84
+         },
+         {
+            "start": 84,
+            "prob": 0.4,
+            "end": 93
+         },
+         {
+            "start": 93,
+            "prob": 0.6,
+            "end": 115
+         },
+         {
+            "start": 115,
+            "prob": 0.7,
+            "end": 118
+         },
+         {
+            "start": 118,
+            "prob": 0.6,
+            "end": 122
+         },
+         {
+            "start": 122,
+            "prob": 0.7,
+            "end": 130
+         },
+         {
+            "start": 130,
+            "prob": 0.9,
+            "end": 132
+         },
+         {
+            "start": 132,
+            "prob": 0.6,
+            "end": 133
+         },
+         {
+            "start": 133,
+            "prob": 0.7,
+            "end": 137
+         },
+         {
+            "start": 137,
+            "prob": 0.9,
+            "end": 145
+         },
+         {
+            "start": 145,
+            "prob": 1.0,
+            "end": 154
+         },
+         {
+            "start": 154,
+            "prob": 0.9,
+            "end": 162
+         },
+         {
+            "start": 162,
+            "prob": 0.6,
+            "end": 170
+         },
+         {
+            "start": 170,
+            "prob": 0.7,
+            "end": 186
+         },
+         {
+            "start": 186,
+            "prob": 0.6,
+            "end": 193
+         },
+         {
+            "start": 193,
+            "prob": 0.1,
+            "end": 195
+         },
+         {
+            "start": 195,
+            "prob": 0.2,
+            "end": 199
+         },
+         {
+            "start": 199,
+            "prob": 0.3,
+            "end": 211
+         },
+         {
+            "start": 211,
+            "prob": 0.4,
+            "end": 217
+         },
+         {
+            "start": 217,
+            "prob": 0.5,
+            "end": 252
+         },
+         {
+            "start": 252,
+            "prob": 0.6,
+            "end": 260
+         },
+         {
+            "start": 260,
+            "prob": 0.8,
+            "end": 268
+         },
+         {
+            "start": 268,
+            "prob": 0.4,
+            "end": 287
+         },
+         {
+            "start": 287,
+            "prob": 0.6,
+            "end": 302
+         },
+         {
+            "start": 302,
+            "prob": 0.8,
+            "end": 307
+         },
+         {
+            "start": 307,
+            "prob": 0.1,
+            "end": 318
+         },
+         {
+            "start": 318,
+            "prob": 0.3,
+            "end": 325
+         },
+         {
+            "start": 325,
+            "prob": 0.2,
+            "end": 327
+         },
+         {
+            "start": 327,
+            "prob": 0.3,
+            "end": 334
+         },
+         {
+            "start": 334,
+            "prob": 0.4,
+            "end": 338
+         },
+         {
+            "start": 338,
+            "prob": 0.7,
+            "end": 346
+         },
+         {
+            "start": 346,
+            "prob": 0.3,
+            "end": 399
+         },
+         {
+            "start": 399,
+            "prob": 0.2,
+            "end": 432
+         },
+         {
+            "start": 432,
+            "prob": 0.5,
+            "end": 440
+         },
+         {
+            "start": 440,
+            "prob": 0.8,
+            "end": 445
+         },
+         {
+            "start": 445,
+            "prob": 0.4,
+            "end": 454
+         },
+         {
+            "start": 454,
+            "prob": 0.5,
+            "end": 469
+         },
+         {
+            "start": 469,
+            "prob": 0.7,
+            "end": 481
+         }
+      ],
+      "Windows Neptune. Windows Neptune is a version of Microsoft Windows that was being made during 1999 and January 2000. Windows 2000 was released as an operating system for businesses and people that know how to use computers well. Windows Neptune was going to be a version of Windows 2000 that was easier for home users to use. Nobody knows if Microsoft was ever going to release Windows Neptune.  After Microsoft stopped developing it, some of its features were merged with Windows 2000's and a new project, \"Whistler\", was formed.  \"Whistler\" was later released as Windows XP.",
+      "No",
+      [
+         1,
+         2
+      ]
+   ],
+   [
+      "val-en-33",
+      " No, Chris Claremont did not write the entire \"Days of Future Past\" story on his own. The original X-Men comic book storyline, which was published in issues #141-142 of Uncanny X-Men in 1981, was written by Chris Claremont and illustrated by John Byrne. However, the alternative future sequences were drawn by Terry Austin, and other artists contributed to the later adaptations of this story into other media formats like animation and film. So while Claremont's role is significant, it's important to acknowledge the contributions of other creators involved in bringing \"Days of Future Past\" to life.",
+      "Is Chris Claremont the sole writer of Days of Future Past?",
+      [
+         {
+            "start": 86,
+            "prob": 0.1111111111,
+            "end": 137
+         },
+         {
+            "start": 137,
+            "prob": 0.3333333333,
+            "end": 165
+         },
+         {
+            "start": 165,
+            "prob": 0.2222222222,
+            "end": 186
+         },
+         {
+            "start": 186,
+            "prob": 0.3333333333,
+            "end": 190
+         },
+         {
+            "start": 190,
+            "prob": 0.1111111111,
+            "end": 223
+         },
+         {
+            "start": 223,
+            "prob": 0.2222222222,
+            "end": 227
+         },
+         {
+            "start": 227,
+            "prob": 0.5555555556,
+            "end": 241
+         },
+         {
+            "start": 241,
+            "prob": 0.3333333333,
+            "end": 252
+         },
+         {
+            "start": 254,
+            "prob": 0.3333333333,
+            "end": 263
+         },
+         {
+            "start": 263,
+            "prob": 0.4444444444,
+            "end": 264
+         },
+         {
+            "start": 264,
+            "prob": 0.5555555556,
+            "end": 267
+         },
+         {
+            "start": 267,
+            "prob": 0.7777777778,
+            "end": 322
+         },
+         {
+            "start": 322,
+            "prob": 0.2222222222,
+            "end": 423
+         },
+         {
+            "start": 423,
+            "prob": 0.3333333333,
+            "end": 441
+         },
+         {
+            "start": 441,
+            "prob": 0.1111111111,
+            "end": 536
+         },
+         {
+            "start": 536,
+            "prob": 0.2222222222,
+            "end": 601
+         }
+      ],
+      "Phil of the Future. Phil of the Future is an American comedy children's television series. It was produced by 2121 Productions (a part of Brookwell McNamara Entertainment). It was first shown on June 18, 2004 on the Disney Channel, and ended on August 19, 2006 as part of the Disney Channel Games. Stars of the show include Ricky Ullman (Phil Diffy), Amy Bruckner (Pim Diffy), and Alyson Michalka (Keely Teslow). The last episode was shown in the United States on August 19, 2006.",
+      "No",
+      [
+         1,
+         2
+      ]
+   ],
+   [
+      "val-en-34",
+      " Toru\u0144, also known as Thorn in German, was a member of the Hanseatic League from approximately 1260 until its expulsion in 1524. The Hanseatic League was a commercial and defensive confederation of merchant guilds and market towns in Northwestern and Central Europe. Toru\u0144's membership in the league contributed significantly to its economic growth during the Middle Ages.",
+      "When was Toru\u0144 part of the Hanseatic League?",
+      [
+         {
+            "start": 28,
+            "prob": 0.1818181818,
+            "end": 37
+         },
+         {
+            "start": 59,
+            "prob": 0.0909090909,
+            "end": 81
+         },
+         {
+            "start": 81,
+            "prob": 0.2727272727,
+            "end": 82
+         },
+         {
+            "start": 82,
+            "prob": 0.3636363636,
+            "end": 95
+         },
+         {
+            "start": 95,
+            "prob": 0.5454545455,
+            "end": 99
+         },
+         {
+            "start": 99,
+            "prob": 0.3636363636,
+            "end": 110
+         },
+         {
+            "start": 110,
+            "prob": 0.4545454545,
+            "end": 123
+         },
+         {
+            "start": 123,
+            "prob": 1.0,
+            "end": 127
+         },
+         {
+            "start": 127,
+            "prob": 0.0909090909,
+            "end": 130
+         },
+         {
+            "start": 130,
+            "prob": 0.1818181818,
+            "end": 133
+         },
+         {
+            "start": 133,
+            "prob": 0.2727272727,
+            "end": 142
+         },
+         {
+            "start": 142,
+            "prob": 0.1818181818,
+            "end": 156
+         },
+         {
+            "start": 156,
+            "prob": 0.3636363636,
+            "end": 180
+         },
+         {
+            "start": 180,
+            "prob": 0.2727272727,
+            "end": 234
+         },
+         {
+            "start": 234,
+            "prob": 0.3636363636,
+            "end": 235
+         },
+         {
+            "start": 235,
+            "prob": 0.4545454545,
+            "end": 246
+         },
+         {
+            "start": 246,
+            "prob": 0.2727272727,
+            "end": 265
+         },
+         {
+            "start": 265,
+            "prob": 0.1818181818,
+            "end": 267
+         },
+         {
+            "start": 267,
+            "prob": 0.2727272727,
+            "end": 300
+         },
+         {
+            "start": 300,
+            "prob": 0.3636363636,
+            "end": 301
+         },
+         {
+            "start": 301,
+            "prob": 0.4545454545,
+            "end": 371
+         }
+      ],
+      "Hanseatic League. The Hanseatic League (German: die Hanse, Dutch: de Hanze, Estonian: hansa, Latvian: Hanza Polish: Hanza, Swedish: Hansan) was an alliance of trading guilds. These guilds established and maintained a trade monopoly over the Baltic Sea and most of Northern Europe. This monopoly lasted for a time in the later Middle Ages and the Early Modern period, between the 13th and 17th centuries.",
+      "1260 until its expulsion in 1524.",
+      [
+         95,
+         127
+      ]
+   ],
+   [
+      "val-en-35",
+      " Pposey is located in the state of Indiana.\n",
+      "In which US state is Posey County located?",
+      [
+         {
+            "start": 1,
+            "prob": 0.5454545455,
+            "end": 2
+         },
+         {
+            "start": 2,
+            "prob": 0.8181818182,
+            "end": 3
+         },
+         {
+            "start": 3,
+            "prob": 0.4545454545,
+            "end": 7
+         },
+         {
+            "start": 35,
+            "prob": 0.0909090909,
+            "end": 42
+         }
+      ],
+      "Forsyth County, Georgia. Forsyth County is a county in the American state of Georgia. The county seat of Forsyth County is Cumming, Georgia. Forsyth County has one of the fastest growing populations of any county in the United States. The number of people grew from 98,407 to 175,511 between 2000 and 2010, and was 251,283 in 2020. The county was made in 1832 and is named after John Forsyth. The county has five main high schools including; North Forsyth, West Forsyth, Lambert High, Forsyth Central, and South Forsyth.",
+      "Indiana",
+      [
+         35,
+         41
+      ]
+   ],
+   [
+      "val-en-36",
+      " FC Zenit-2 Saint Petersburg\n",
+      "What is the home stadium of FC Zhenis?",
+      [
+         {
+            "start": 1,
+            "prob": 0.7272727273,
+            "end": 4
+         },
+         {
+            "start": 4,
+            "prob": 0.9090909091,
+            "end": 10
+         },
+         {
+            "start": 10,
+            "prob": 1.0,
+            "end": 11
+         },
+         {
+            "start": 11,
+            "prob": 0.9090909091,
+            "end": 12
+         },
+         {
+            "start": 12,
+            "prob": 1.0,
+            "end": 27
+         },
+         {
+            "start": 27,
+            "prob": 0.9090909091,
+            "end": 28
+         }
+      ],
+      "Veltins Arena. The Veltins-Arena (between 2001 and 2005 Arena AufSchalke) in Gelsenkirchen, Germany, is the stadium of the German member of the soccer federal league FC Schalke 04. The Veltins arena is one of the most modern stages of the world and possesses since June 2015 a capacity of 62.271 spectators with plays on national level, with international plays due to the standing place prohibition of 54,740 spectators. Apart from the actual use as football stadium of the FC Schalke 04 also different meetings, like concerts, take place in this multi-function arena. Due to the outline of the Rhine stadium in Duesseldorf the arena became occasionally also venue of the Home plays of the American football crew Rhine Fire.",
+      "St. Petersburg",
+      null
+   ],
+   [
+      "val-en-37",
+      " H\u00e4fen\n",
+      "Which town is H\u00fcffelsheim partnered with?",
+      [
+         {
+            "start": 1,
+            "prob": 1.0,
+            "end": 6
+         }
+      ],
+      "Forchheim. Forchheim (; East Franconian: Forchham) is a German town in Upper Franconia. Next bigger cities are N\u00fcrnberg, Bamberg, F\u00fcrth, Erlangen and Coburg. There live is about 32.000 people.",
+      "Forchheim",
+      null
+   ],
+   [
+      "val-en-38",
+      " The two sides are called the \u201cSect\u201d and the \"Heretics\".\n",
+      "What are the two factions in Bruce Sterling\u2019s \u201cSchismatrix\u201d?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1111111111,
+            "end": 31
+         },
+         {
+            "start": 31,
+            "prob": 1.0,
+            "end": 35
+         },
+         {
+            "start": 35,
+            "prob": 0.1111111111,
+            "end": 46
+         },
+         {
+            "start": 46,
+            "prob": 1.0,
+            "end": 54
+         }
+      ],
+      "S.T.A.L.K.E.R.: Shadow of Chernobyl. A few other groups work in the zone, and are neutral or an enemy based on certain events. Two groups are important: \"Freedom\" and \"Duty\" as they are the only two groups that the player can decide if they want to be friendly towards or not. Neither Faction will attack the player at first, and both will offer missions to the player. Freedom and Duty are at war with one another, and although th player can keep friendship with both of them at first, the player will end up having to choose a side. The player cannot join either faction, no matter how friendly the player becomes towards them, as the player's faction status in the player's P.D.A. will tell the player, the player is always a loner in this game. There are several other groups, these are almost all enemies for the player. The scientists are different though, because the player can be friends by saving one of them from a mercenary attack later in the game.",
+      "Freedom and Duty",
+      null
+   ],
+   [
+      "val-en-39",
+      " 12 Octobre\n",
+      "What is the head town of the 12 de Octubre Department in Argentina?",
+      [
+         {
+            "start": 1,
+            "prob": 0.9090909091,
+            "end": 11
+         }
+      ],
+      "Buenos Aires. Buenos Aires is the capital and largest city in the South American country of Argentina. It has its own executive, legislative and judicial powers. It is in the central-eastern region of the country, on the southern shore of the R\u00edo de la Plata, in the Pampas region. The city was ceded in 1880 by the Province of Buenos Aires to be the federal capital of the country. It is the \"main capital\", along with 24 alternate capitals, because of the constitutional reform of 1994. Buenos Aires city is also known as Capital Federal to differentiate the city from the Buenos Aires Province. Until 1994 Buenos Aires city was under the presidential government, but after a constitutional reform in that year, the city became self-governed, allowing citizens to elect their city authorities.",
+      "Buenos Aires",
+      null
+   ],
+   [
+      "val-en-40",
+      " The Swedish navy was founded in 1625.\n",
+      "When was the Swedish Navy founded?",
+      [
+         {
+            "start": 1,
+            "prob": 0.0909090909,
+            "end": 18
+         },
+         {
+            "start": 18,
+            "prob": 0.1818181818,
+            "end": 33
+         },
+         {
+            "start": 33,
+            "prob": 1.0,
+            "end": 37
+         }
+      ],
+      "Royal Navy. A permanent Royal Navy, with its own staff, dockyards and a group of purpose-built warships, was created in the 16th century in the reign of Henry VIII.221-37 Under Elizabeth I, England was at war with Spain. Privately owned ships combined with the Royal Navy raided Spanish commerce and colonies.238-53, 281-6, 292-6 In 1588, Philip II of Spain sent the Spanish Armada against England to stop English support for the Dutch rebels, to stop English pirate activity, and to depose Elizabeth. The Spaniards sailed from Lisbon, planning to escort an invasion force from the Spanish Netherlands. The plan failed due to poor planning, English tactics, blocking action by the Dutch, and bad weather.253-71",
+      "1625",
+      [
+         33,
+         36
+      ]
+   ],
+   [
+      "val-en-41",
+      " Eduardo Mango\n",
+      "What\u2019s the real name of Edu Manga?",
+      [
+         {
+            "start": 9,
+            "prob": 0.9090909091,
+            "end": 14
+         }
+      ],
+      "Ed Kavalee. Edward Robert Kavalee (born 30 June 1979) (also known as The Prize King) is an Australian actor and radio host.  Ed is a graduate of Screenwise, Australia's Leading Film & TV School for actors in Sydney. He is on Santo, Sam and Ed\u2019s Sports Fever!, with Santo Cilauro and Sam Pang",
+      "Ed Kavalee",
+      null
+   ],
+   [
+      "val-en-42",
+      " Dave played the role of Zack in the first season of Scary Movie 5.\n",
+      "Who did Dave Franco play in Scrubs?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1,
+            "end": 22
+         },
+         {
+            "start": 22,
+            "prob": 0.2,
+            "end": 25
+         },
+         {
+            "start": 25,
+            "prob": 1.0,
+            "end": 29
+         },
+         {
+            "start": 29,
+            "prob": 0.5,
+            "end": 37
+         },
+         {
+            "start": 37,
+            "prob": 0.8,
+            "end": 42
+         },
+         {
+            "start": 42,
+            "prob": 0.7,
+            "end": 49
+         },
+         {
+            "start": 49,
+            "prob": 0.5,
+            "end": 53
+         },
+         {
+            "start": 53,
+            "prob": 1.0,
+            "end": 66
+         }
+      ],
+      "Zach Braff. Zachary Israel Braff (born April 6, 1975) is an American actor, film director, producer and screenwriter. He became famous in the early 2000s playing the part of \"Dr. John Dorian\" on the NBC/ABC series Scrubs. Since then, he has written, starred in and directed the 2004 movie Garden State. He also has directed multiple music videos. Braff is a Democrat and attended the 2012 Democratic National Convention in support of President Obama's re-election. He directed his first movie. It is called Wish I Was Here.",
+      "Dr. John Dorian",
+      null
+   ],
+   [
+      "val-en-43",
+      " A case-control design is a study design where cases are people who have a disease and controls are healthy people. In a typical case control study, the researcher will compare the DNA of people with the disease to the same type of DNA from healthy controls.\n",
+      "How many groups are compared in a case\u2013control study?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1,
+            "end": 47
+         },
+         {
+            "start": 47,
+            "prob": 0.2,
+            "end": 52
+         },
+         {
+            "start": 52,
+            "prob": 0.1,
+            "end": 87
+         },
+         {
+            "start": 87,
+            "prob": 0.3,
+            "end": 100
+         },
+         {
+            "start": 100,
+            "prob": 0.6,
+            "end": 107
+         },
+         {
+            "start": 107,
+            "prob": 0.3,
+            "end": 114
+         },
+         {
+            "start": 114,
+            "prob": 0.1,
+            "end": 121
+         },
+         {
+            "start": 121,
+            "prob": 0.2,
+            "end": 149
+         },
+         {
+            "start": 149,
+            "prob": 0.4,
+            "end": 169
+         },
+         {
+            "start": 169,
+            "prob": 0.5,
+            "end": 181
+         },
+         {
+            "start": 181,
+            "prob": 0.8,
+            "end": 184
+         },
+         {
+            "start": 184,
+            "prob": 0.4,
+            "end": 232
+         },
+         {
+            "start": 232,
+            "prob": 0.7,
+            "end": 235
+         },
+         {
+            "start": 235,
+            "prob": 0.4,
+            "end": 236
+         },
+         {
+            "start": 236,
+            "prob": 0.5,
+            "end": 241
+         },
+         {
+            "start": 241,
+            "prob": 0.8,
+            "end": 248
+         },
+         {
+            "start": 248,
+            "prob": 0.5,
+            "end": 257
+         }
+      ],
+      "Experiment. A controlled experiment is a kind of comparison. It often compares the results from experimental samples against control samples. Control samples are the same as the experimental sample, except for one difference. This difference is the one thing whose effect is being tested (the independent variable). A good example would be a drug trial. The sample or group receiving the drug would be the experimental group (treatment group); and the one receiving the placebo or an older treatment would be the control group.",
+      "Two",
+      null
+   ],
+   [
+      "val-en-44",
+      " The SakYA TriZIN is a TIBETAN BUDDHIST MONK who serves as the head of the SAKYA sect of Tibetan Buddhism. He is also the current head lama of SakYABooks.com\n",
+      "Explain what is the Sakya Trizin in a few words.",
+      [
+         {
+            "start": 1,
+            "prob": 0.1,
+            "end": 5
+         },
+         {
+            "start": 5,
+            "prob": 0.4,
+            "end": 8
+         },
+         {
+            "start": 8,
+            "prob": 0.5,
+            "end": 10
+         },
+         {
+            "start": 10,
+            "prob": 0.3,
+            "end": 11
+         },
+         {
+            "start": 11,
+            "prob": 0.4,
+            "end": 14
+         },
+         {
+            "start": 14,
+            "prob": 0.5,
+            "end": 17
+         },
+         {
+            "start": 23,
+            "prob": 0.3,
+            "end": 24
+         },
+         {
+            "start": 24,
+            "prob": 0.4,
+            "end": 30
+         },
+         {
+            "start": 30,
+            "prob": 0.3,
+            "end": 32
+         },
+         {
+            "start": 32,
+            "prob": 0.4,
+            "end": 39
+         },
+         {
+            "start": 39,
+            "prob": 0.3,
+            "end": 40
+         },
+         {
+            "start": 40,
+            "prob": 0.6,
+            "end": 44
+         },
+         {
+            "start": 44,
+            "prob": 0.1,
+            "end": 58
+         },
+         {
+            "start": 75,
+            "prob": 0.2,
+            "end": 76
+         },
+         {
+            "start": 76,
+            "prob": 0.3,
+            "end": 81
+         },
+         {
+            "start": 81,
+            "prob": 0.6,
+            "end": 85
+         },
+         {
+            "start": 107,
+            "prob": 0.2,
+            "end": 109
+         },
+         {
+            "start": 109,
+            "prob": 0.1,
+            "end": 122
+         },
+         {
+            "start": 122,
+            "prob": 0.4,
+            "end": 134
+         },
+         {
+            "start": 134,
+            "prob": 0.3,
+            "end": 135
+         },
+         {
+            "start": 135,
+            "prob": 0.7,
+            "end": 139
+         },
+         {
+            "start": 139,
+            "prob": 0.3,
+            "end": 143
+         },
+         {
+            "start": 143,
+            "prob": 0.9,
+            "end": 157
+         }
+      ],
+      "Shiva. Trident: Shiva typically carries a trident called Trishula. The trident is a weapon or a symbol in different Hindu texts. As a symbol, the Trishul represents Shiva's three aspects of \"creator, preserver and destroyer\", or alternatively it represents the equilibrium of three Gunas of \"sattva, rajas and tamas\".",
+      "",
+      [
+         0,
+         -1
+      ]
+   ],
+   [
+      "val-en-45",
+      " Jefs Rakins died on March 1, 2011. He was 88 years old.\n",
+      "When did Jef Raskin die?",
+      [
+         {
+            "start": 1,
+            "prob": 0.2727272727,
+            "end": 4
+         },
+         {
+            "start": 4,
+            "prob": 0.3636363636,
+            "end": 5
+         },
+         {
+            "start": 5,
+            "prob": 0.2727272727,
+            "end": 11
+         },
+         {
+            "start": 11,
+            "prob": 0.3636363636,
+            "end": 12
+         },
+         {
+            "start": 12,
+            "prob": 0.0909090909,
+            "end": 20
+         },
+         {
+            "start": 21,
+            "prob": 1.0,
+            "end": 28
+         },
+         {
+            "start": 28,
+            "prob": 0.9090909091,
+            "end": 30
+         },
+         {
+            "start": 30,
+            "prob": 1.0,
+            "end": 34
+         },
+         {
+            "start": 43,
+            "prob": 0.9090909091,
+            "end": 45
+         }
+      ],
+      "Alex Trebek. In March 2019, Trebek announced that he had been diagnosed with stage IV pancreatic cancer. He died from the disease  more than a year and a half later on November 8, 2020 in Los Angeles, aged 80. The same disease previously affected his predecessor on Jeopardy!, Art Fleming, 25 years earlier. He had been contracted to host Jeopardy! until 2022.",
+      "March 1, 2011",
+      [
+         21,
+         33
+      ]
+   ],
+   [
+      "val-en-46",
+      " The Roman emperor Augustus was born at the city of Lugudunon in 43 BC.\n",
+      "Which Roman emperors were born in Lugdunum?",
+      [
+         {
+            "start": 1,
+            "prob": 0.1,
+            "end": 11
+         },
+         {
+            "start": 11,
+            "prob": 0.2,
+            "end": 18
+         },
+         {
+            "start": 18,
+            "prob": 0.1,
+            "end": 19
+         },
+         {
+            "start": 19,
+            "prob": 0.7,
+            "end": 27
+         },
+         {
+            "start": 27,
+            "prob": 0.2,
+            "end": 32
+         },
+         {
+            "start": 32,
+            "prob": 0.3,
+            "end": 52
+         },
+         {
+            "start": 52,
+            "prob": 0.6,
+            "end": 61
+         },
+         {
+            "start": 61,
+            "prob": 0.5,
+            "end": 62
+         },
+         {
+            "start": 62,
+            "prob": 0.6,
+            "end": 65
+         },
+         {
+            "start": 65,
+            "prob": 0.8,
+            "end": 70
+         }
+      ],
+      "Nero. Nero (Ner\u014d Claudius Caesar Augustus Germanicus; 15 December 37 CE \u2013 9 June 68 CE) was the fifth and last Roman Emperor of the Julio-Claudian dynasty. He was born Lucius Domitius Ahenobarbus.",
+      "2",
+      null
+   ],
+   [
+      "val-en-47",
+      " Bishofshain was a constituent community in the early Middle Ages.\n",
+      "When was Bischofsheim a constitutent community of Mainz?",
+      [
+         {
+            "start": 1,
+            "prob": 0.3636363636,
+            "end": 12
+         },
+         {
+            "start": 13,
+            "prob": 0.0909090909,
+            "end": 41
+         },
+         {
+            "start": 41,
+            "prob": 0.1818181818,
+            "end": 44
+         },
+         {
+            "start": 44,
+            "prob": 0.2727272727,
+            "end": 48
+         },
+         {
+            "start": 48,
+            "prob": 0.8181818182,
+            "end": 53
+         },
+         {
+            "start": 53,
+            "prob": 0.7272727273,
+            "end": 54
+         },
+         {
+            "start": 54,
+            "prob": 0.8181818182,
+            "end": 60
+         },
+         {
+            "start": 60,
+            "prob": 0.7272727273,
+            "end": 61
+         },
+         {
+            "start": 61,
+            "prob": 0.8181818182,
+            "end": 65
+         }
+      ],
+      "Kornwestheim. The municipality of Kornwestheim consists of the town centre and Pattonville. The latter became a part of Kornwestheim only at the beginning of the 1990s, having belonged to the Gemarkung Aldingen initially. The settlement was established in 1954 by the US army. After their departure a Company bought the area from the Federal Republic of Germany and divided it between the towns of Kornwestheim and  Remseck am Neckar. Pattonville has since been converted from a military to a civilian settlement.",
+      "in the early Middle Ages",
+      [
+         41,
+         64
+      ]
+   ],
+   [
+      "val-en-48",
+      " Gregory Lahm\n",
+      "What name was Gregory III Laham given at birth?",
+      [
+         {
+            "start": 1,
+            "prob": 1.0,
+            "end": 8
+         },
+         {
+            "start": 8,
+            "prob": 0.6,
+            "end": 12
+         },
+         {
+            "start": 12,
+            "prob": 0.7,
+            "end": 13
+         }
+      ],
+      "Gregory Peck. Eldred Gregory Peck (April 5, 1916 \u2013 June 12, 2003) was an American actor who was born in La Jolla, California.",
+      "Eldred Gregory Peck",
+      null
+   ],
+   [
+      "val-en-49",
+      " Carl Gustaf Bernhard L\u00f6nneber, Carl-Gustaf L:son Bernh:m, was born in Stockholm, Sweden, on March 4, 1786.\n",
+      "Who was the father of Carl L\u00f6wenhielm?",
+      [
+         {
+            "start": 1,
+            "prob": 0.5555555556,
+            "end": 6
+         },
+         {
+            "start": 6,
+            "prob": 0.8888888889,
+            "end": 13
+         },
+         {
+            "start": 13,
+            "prob": 1.0,
+            "end": 21
+         },
+         {
+            "start": 21,
+            "prob": 0.7777777778,
+            "end": 24
+         },
+         {
+            "start": 24,
+            "prob": 0.8888888889,
+            "end": 30
+         },
+         {
+            "start": 30,
+            "prob": 0.7777777778,
+            "end": 32
+         },
+         {
+            "start": 32,
+            "prob": 0.8888888889,
+            "end": 46
+         },
+         {
+            "start": 46,
+            "prob": 1.0,
+            "end": 49
+         },
+         {
+            "start": 49,
+            "prob": 0.8888888889,
+            "end": 50
+         },
+         {
+            "start": 50,
+            "prob": 1.0,
+            "end": 55
+         },
+         {
+            "start": 55,
+            "prob": 0.8888888889,
+            "end": 56
+         },
+         {
+            "start": 56,
+            "prob": 1.0,
+            "end": 57
+         },
+         {
+            "start": 57,
+            "prob": 0.2222222222,
+            "end": 80
+         },
+         {
+            "start": 80,
+            "prob": 0.1111111111,
+            "end": 90
+         },
+         {
+            "start": 90,
+            "prob": 0.3333333333,
+            "end": 93
+         },
+         {
+            "start": 93,
+            "prob": 1.0,
+            "end": 100
+         },
+         {
+            "start": 100,
+            "prob": 0.8888888889,
+            "end": 102
+         },
+         {
+            "start": 102,
+            "prob": 1.0,
+            "end": 106
+         }
+      ],
+      "Carl XVI Gustaf. Carl Gustaf was born in Solna, Stockholm on 30 April 1946. His father was Prince Gustaf Adolf He is married to Silvia Sommerlath who is half German, half Brazilian. With her he has three children: Crown Princess Victoria, Prince Carl Philip and Princess Madeleine.",
+      "Prince Gustaf Adolf",
+      null
+   ],
+   [
+      "val-en-50",
+      " Ponza\n",
+      "Which municipalities does the Italian commune of Ponzone border?",
+      [
+         {
+            "start": 1,
+            "prob": 0.9090909091,
+            "end": 6
+         }
+      ],
+      "Fermo. The comune borders with the following comuni\u02d0 Altidona, Lapedona and Monterubbiano to the south; Ponzano di Fermo to the southwest; Grottazzolina, Magliano di Tenna and Rapagnano to the west; Torre San Patrizio to the northwest; Monte Urano, Sant'Elpidio a Mare and Porto Sant'Elpidio to the north. To the east is Porto San Giorgio and the Adriatic Sea.",
+      "Fermo",
+      null
+   ]
+]
