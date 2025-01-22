@@ -2,6 +2,7 @@ import json
 import pandas as pd
 import numpy as np
 from transformers import AutoTokenizer, AutoModelWithLMHead
+import re
 
 
 def read_data(set_file, passages_file):
@@ -13,7 +14,7 @@ def read_data(set_file, passages_file):
     with open(set_file, 'r') as f:
         for line in f:
             data = json.loads(line.strip())
-            pairs_to_test.append((data['id'], data['model_output_text'], data['model_input'], data['soft_labels']))
+            pairs_to_test.append((data['id'], data['model_output_text'], data['model_input']))
 
     # Read passages retrieved by the DPR system
     stored_data = {}
@@ -31,7 +32,7 @@ def read_data(set_file, passages_file):
     ]
 
     # Debug: Print the first 3 data points
-    print("Printing first 3 datapoints...")
+    print("\nPrinting first 3 datapoints...\n")
     for pair in appended_pairs[:3]:
         print(pair)
 
@@ -44,12 +45,11 @@ def make_prompts(appended_pairs):
     """
     prompts = {}
     for pair in appended_pairs:
-        pair_id, hypothesis, question, _, context = pair
+        pair_id, hypothesis, question, context = pair
         prompt = (
             f"Question = {question}. Hypothesis = {hypothesis}. "
-            f"Using the provided context, identify and cite the EXACT part of the hypothesis that "
+            f"Using this context: {context}, identify and cite the EXACT part of the hypothesis that "
             f"contradicts the premise by giving the textual span, make sure to not add ANY other words. "
-            f"context = {context}"
         )
         prompts[pair_id] = prompt
     return prompts
@@ -74,9 +74,32 @@ def get_overlap_span(text1, text2):
     """
     text1, text2 = text1.lower(), text2.lower()
     start = text1.find(text2)
+    end = start + len(text2) - 1
+    if end == start:
+        end += 1
     if start == -1:
         return None
-    return {"start": start, "end": start + len(text2) - 1}
+    return {"start": start, "end": end}
+
+
+
+def get_overlap_span_regex(text1: str, text2: str) -> dict | None:
+    """
+    Finds the start and end indices of the first occurrence of text2 in text1,
+    matching only whole words and supporting complex patterns.
+    """
+    pattern = rf'\b{text2}\b'  # \b ensures matching whole words
+    match = re.search(pattern, text1, re.IGNORECASE)
+    if match:
+        start = match.start()
+        end = match.end() - 1
+        if end == start:
+            end += 1
+        if start == -1:
+            return None
+        return {"start": start, "end": end}
+    return None
+
 
 
 def reformat(original_data):
@@ -85,7 +108,7 @@ def reformat(original_data):
     """
     output_records = []
     for entry in original_data:
-        record_id, _, _, soft_labels_entry, _, _, hard_label_entry = entry
+        record_id, possible_hallucination, _, soft_labels_entry, model_output_text, hard_label_entry = entry
 
         # Format hard labels
         hard_labels = [[hard_label_entry["start"], hard_label_entry["end"]]] if isinstance(hard_label_entry, dict) else []
@@ -99,13 +122,11 @@ def reformat(original_data):
                     soft_labels.append(label)
                     max_end = max(max_end, label["end"])
 
-        # Ensure model output text is long enough
-        model_output_text = "x" * (max_end + 10)
-
         output_records.append({
             "id": record_id,
             "soft_labels": soft_labels,
             "hard_labels": hard_labels,
+            "possible_hallucination": possible_hallucination,
             "model_output_text": model_output_text,
         })
     return output_records
@@ -160,35 +181,58 @@ def scorer(ref_dicts, pred_dicts):
     assert len(ref_dicts) == len(pred_dicts)
     return np.mean([score_iou(r, d) for r, d in zip(ref_dicts, pred_dicts)])
 
+def count_entries_with_hard_labels(data):
+    entries = 0
+    labels = 0
+    count = 0
+
+    for entry in data:
+        entries += 1
+        if entry[5] != None:
+            labels += 1
+        if entry[4] != "None":
+            count += 1
+    return labels, entries, count
+
+
+
 
 if __name__ == "__main__":
-    print("Running script...")
+    print("\nRunning script...\n")
 
     # Load data
-    set_file = "mushroom.en-val.v2.jsonl" # This is the file you use for testing
-    passages_file = "retrieved_passages.json"  # Here you can enter the DPR File that is !coherent! to the set_file
+    set_file = "test_set/mushroom.en-tst.v1.jsonl" # This is the file you use for testing
+    passages_file = "passages/retrieved_passages_en.json"  # Here you can enter the DPR File that is !coherent! to the set_file
     model = "google/flan-t5-base" # Here you can change the model you want to experiment with
     appended_pairs = read_data(set_file, passages_file)
 
     # Generate prompts
     prompts = make_prompts(appended_pairs)
-    print("Prompting model...")
+    print("\nPrompting model...\n")
 
     # Get hallucinated text spans
     halu_text_spans = [prompt_model(prompt, model) for prompt in prompts.values()]
 
     # Update and process data
     updated_data = [data_point + (span,) for data_point, span in zip(appended_pairs, halu_text_spans)]
-    hard_spans = [get_overlap_span(data[1], data[5]) for data in updated_data]
+    hard_spans = [get_overlap_span(data[1], data[4]) for data in updated_data]
     finished_data = [data_point + (span,) for data_point, span in zip(updated_data, hard_spans)]
 
     # Reformat and save output
     hard_labels = reformat(finished_data)
-    with open("hard_labels.json", "w") as f:
+
+    labels, entries, count = count_entries_with_hard_labels(finished_data)
+    print(f"\nThere have been {count} hallucinations out of {entries} data entries found!\n")
+    print(f"\n{labels} hard labels were successfully extracted out of {count} hallucinations.")
+
+
+
+
+    with open("mushroom.labels.en.tst.v4.jsonl", "w") as f:
         f.write('\n'.join(json.dumps(record) for record in hard_labels))
 
-    # Evaluate performance
-    ref_dict = load_jsonl_file_to_records(set_file)
-    pred_dict = load_jsonl_file_to_records("hard_labels.json")
-    ious = scorer(ref_dict, pred_dict)
-    print(f"Average IoU: {np.mean(ious)}")
+
+    #ref_dict = load_jsonl_file_to_records(set_file)
+    #pred_dict = load_jsonl_file_to_records("mushroom.labels.en.tst.v2.jsonl")
+    #ious = scorer(ref_dict, pred_dict)
+    #print(f"Average IoU: {np.mean(ious)}")
