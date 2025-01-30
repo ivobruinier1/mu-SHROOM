@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 from transformers import AutoTokenizer, AutoModelWithLMHead
 import re
-
+import string
+from difflib import SequenceMatcher
 
 def read_data(set_file, passages_file):
     """
@@ -21,7 +22,7 @@ def read_data(set_file, passages_file):
     with open(passages_file, "r") as json_file:
         data = json.load(json_file)
         for key, value in data.items():
-            if key.startswith("val-en"):
+            if key.startswith("tst"):
                 results = value.get("results", [])
                 top_passage = results[0][0:2] if results else None
                 stored_data[key] = top_passage
@@ -32,7 +33,7 @@ def read_data(set_file, passages_file):
     ]
 
     # Debug: Print the first 3 data points
-    print("\nPrinting first 3 datapoints...\n")
+    print("\nPrinting first 3 datapoints for debugging...\n")
     for pair in appended_pairs[:3]:
         print(pair)
 
@@ -67,39 +68,32 @@ def prompt_model(prompt, model):
     output = model.generate(input_ids=encoded_input.input_ids, attention_mask=encoded_input.attention_mask)
     return tokenizer.decode(output[0], skip_special_tokens=True)
 
-
 def get_overlap_span(text1, text2):
     """
-    Finds the overlap span between two texts.
+    Finds the overlap span between two texts with enhanced matching.
     """
-    text1, text2 = text1.lower(), text2.lower()
-    start = text1.find(text2)
-    end = start + len(text2) - 1
-    if end == start:
-        end += 1
-    if start == -1:
-        return None
-    return {"start": start, "end": end}
 
+    def preprocess_text(text):
+        # Normalize text: lowercase, remove punctuation, and extra spaces
+        text = ''.join(char for char in text if char not in string.punctuation)
+        return ' '.join(text.lower().split())  # Remove extra spaces
 
+    if text2 != "None":    # Preprocess texts
+        text1, text2 = preprocess_text(text1), preprocess_text(text2)
 
-def get_overlap_span_regex(text1: str, text2: str) -> dict | None:
-    """
-    Finds the start and end indices of the first occurrence of text2 in text1,
-    matching only whole words and supporting complex patterns.
-    """
-    pattern = rf'\b{text2}\b'  # \b ensures matching whole words
-    match = re.search(pattern, text1, re.IGNORECASE)
-    if match:
-        start = match.start()
-        end = match.end() - 1
-        if end == start:
-            end += 1
-        if start == -1:
+        # Use difflib to find the best match
+        matcher = SequenceMatcher(None, text1, text2)
+        match = matcher.find_longest_match(0, len(text1), 0, len(text2))
+
+        if match.size > 0:
+            start, end = match.a, match.a + match.size - 1
+            if end == start:
+                end += 1
+            return {"start": start, "end": end}
+        else:
             return None
-        return {"start": start, "end": end}
-    return None
-
+    else:
+        return None
 
 
 def reformat(original_data):
@@ -116,11 +110,6 @@ def reformat(original_data):
         # Format soft labels
         soft_labels = []
         max_end = 0
-        if isinstance(soft_labels_entry, list):
-            for label in soft_labels_entry:
-                if {"start", "end", "prob"}.issubset(label):
-                    soft_labels.append(label)
-                    max_end = max(max_end, label["end"])
 
         output_records.append({
             "id": record_id,
@@ -131,55 +120,6 @@ def reformat(original_data):
         })
     return output_records
 
-
-def recompute_hard_labels(soft_labels):
-    """
-    Infers hard labels from soft labels with a probability threshold.
-    """
-    hard_labels = []
-    prev_end = -1
-    for start, end in (
-        (lbl['start'], lbl['end'])
-        for lbl in sorted(soft_labels, key=lambda span: (span['start'], span['end']))
-        if lbl['prob'] > 0.5
-    ):
-        if start == prev_end:
-            hard_labels[-1][-1] = end
-        else:
-            hard_labels.append([start, end])
-        prev_end = end
-    return hard_labels
-
-
-def load_jsonl_file_to_records(filename):
-    """
-    Reads data from a JSONL file into a DataFrame, computes hard labels if missing.
-    """
-    df = pd.read_json(filename, lines=True)
-    if 'hard_labels' not in df.columns:
-        df['hard_labels'] = df.soft_labels.apply(recompute_hard_labels)
-    df['text_len'] = df.model_output_text.str.len()
-    return df[['id', 'soft_labels', 'hard_labels', 'text_len']].sort_values('id').to_dict(orient='records')
-
-
-def score_iou(ref_dict, pred_dict):
-    """
-    Computes IoU between reference and predicted hard labels for a single datapoint.
-    """
-    assert ref_dict['id'] == pred_dict['id']
-    ref_indices = {idx for span in ref_dict['hard_labels'] for idx in range(*span)}
-    pred_indices = {idx for span in pred_dict['hard_labels'] for idx in range(*span)}
-    if not ref_indices and not pred_indices:
-        return 1.0
-    return len(ref_indices & pred_indices) / len(ref_indices | pred_indices)
-
-
-def scorer(ref_dicts, pred_dicts):
-    """
-    Computes average IoU across all datapoints.
-    """
-    assert len(ref_dicts) == len(pred_dicts)
-    return np.mean([score_iou(r, d) for r, d in zip(ref_dicts, pred_dicts)])
 
 def count_entries_with_hard_labels(data):
     entries = 0
@@ -198,41 +138,36 @@ def count_entries_with_hard_labels(data):
 
 
 if __name__ == "__main__":
-    print("\nRunning script...\n")
 
-    # Load data
-    set_file = "test_set/mushroom.en-tst.v1.jsonl" # This is the file you use for testing
-    passages_file = "passages/retrieved_passages_en.json"  # Here you can enter the DPR File that is !coherent! to the set_file
-    model = "google/flan-t5-base" # Here you can change the model you want to experiment with
-    appended_pairs = read_data(set_file, passages_file)
+    languages = ["ar", "ca", "cs", "de", "en", "es", "eu", "fa", "fi", "fr", "hi", "it", "sv", "zh"]
+    # Here you can adjust which languages you want to scan for hallucinations
 
-    # Generate prompts
-    prompts = make_prompts(appended_pairs)
-    print("\nPrompting model...\n")
+    for language in languages:
+        print(f"\nRunning script for the language: {language}\n")
+        # Load data
+        set_file = f"test_set/mushroom.{language}-tst.v1.jsonl"# These are the file(s) you use for testing
+        passages_file = f"passages/retrieved_passages_{language}.json"  # Here you can enter the DPR File(s) that are !coherent! to the set_file
+        model = "google/flan-t5-base" # Here you can change the model you want to experiment with
+        appended_pairs = read_data(set_file, passages_file)
 
-    # Get hallucinated text spans
-    halu_text_spans = [prompt_model(prompt, model) for prompt in prompts.values()]
+        # Generate prompts
+        prompts = make_prompts(appended_pairs)
+        print("\nPrompting model...\n")
 
-    # Update and process data
-    updated_data = [data_point + (span,) for data_point, span in zip(appended_pairs, halu_text_spans)]
-    hard_spans = [get_overlap_span(data[1], data[4]) for data in updated_data]
-    finished_data = [data_point + (span,) for data_point, span in zip(updated_data, hard_spans)]
+        # Get hallucinated text spans
+        halu_text_spans = [prompt_model(prompt, model) for prompt in prompts.values()]
 
-    # Reformat and save output
-    hard_labels = reformat(finished_data)
+        # Update and process data
+        updated_data = [data_point + (span,) for data_point, span in zip(appended_pairs, halu_text_spans)]
+        hard_spans = [get_overlap_span(data[1], data[4]) for data in updated_data]
+        finished_data = [data_point + (span,) for data_point, span in zip(updated_data, hard_spans)]
 
-    labels, entries, count = count_entries_with_hard_labels(finished_data)
-    print(f"\nThere have been {count} hallucinations out of {entries} data entries found!\n")
-    print(f"\n{labels} hard labels were successfully extracted out of {count} hallucinations.")
+        # Reformat and save output
+        hard_labels = reformat(finished_data)
 
+        labels, entries, count = count_entries_with_hard_labels(finished_data)
+        print(f"\nThere have been {count} hallucinations out of {entries} {language} data entries found!\n")
+        print(f"\n{labels} hard labels were successfully extracted out of {count} hallucinations.")
 
-
-
-    with open("mushroom.labels.en.tst.v4.jsonl", "w") as f:
-        f.write('\n'.join(json.dumps(record) for record in hard_labels))
-
-
-    #ref_dict = load_jsonl_file_to_records(set_file)
-    #pred_dict = load_jsonl_file_to_records("mushroom.labels.en.tst.v2.jsonl")
-    #ious = scorer(ref_dict, pred_dict)
-    #print(f"Average IoU: {np.mean(ious)}")
+        with open(f"mushroom.labels.{language}.tst.jsonl", "w") as f:
+            f.write('\n'.join(json.dumps(record) for record in hard_labels))
