@@ -1,6 +1,6 @@
 # Installation
 
 1. Install requirements -> pip install -r requirements.txt
-2. run -> python3 baseline.py
-3. New jsonl file is created called predictions.jsonl
-4. Use this file together with the sample_test.v1.json file to run the scorer.py to create the evaluation (called test_scores) -> python3 scorer.py sample_test.v1.json predictions.jsonl test_scores  
+2. Allign correlating test_set end passages in FENJI_FINAL.py script
+3. run python3 FENJI_FINAL.py
+4. new jsonl files will be created called mushroom.labels.{language}.tst.jsonl
