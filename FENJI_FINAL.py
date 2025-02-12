@@ -146,7 +146,7 @@ if __name__ == "__main__":
         print(f"\nRunning script for the language: {language}\n")
         # Load data
         set_file = f"test_set/mushroom.{language}-tst.v1.jsonl"# These are the file(s) you use for testing
-        passages_file = f"passages/retrieved_passages_{language}.json"  # Here you can enter the DPR File(s) that are !coherent! to the set_file
+        passages_file = f"passages_v2/retrieved_passages_{language}_v2.json"  # Here you can enter the DPR File(s) that are !coherent! to the set_file
         model = "google/flan-t5-base" # Here you can change the model you want to experiment with
         appended_pairs = read_data(set_file, passages_file)
 
