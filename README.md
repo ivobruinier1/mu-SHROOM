@@ -38,28 +38,8 @@ The dataset is provided in JSONL format, where each entry contains:
 - **Model ID:** Identifies the LLM used.
 - **Annotations:** Includes soft and hard labels indicating hallucination spans.
 
-## Model Pipeline
-The system follows a structured pipeline:
-1. **Named Entity Recognition (NER):** Extracts entities from input queries.
-2. **Dense Passage Retrieval (DPR):** Fetches relevant Wikipedia passages.
-3. **FLAN-T5 Prompting:** Identifies hallucinated spans.
-4. **Evaluation:** Computes Intersection-over-Union (IoU) accuracy.
-
-## Results
-The system was evaluated across multiple languages using IoU as the primary metric. While RAG showed potential, its effectiveness depended on retrieval accuracy. The baseline "mark-all" approach outperformed our method in most cases.
-
-## Limitations
-- **Language-Specific Performance:** Non-alphabetical languages (e.g., Arabic, Farsi, Chinese) exhibited lower performance.
-- **Span Detection Constraints:** The model struggled to detect multiple hallucination spans within a single response.
-- **Retrieval Context Limitations:** Inaccurate retrieval negatively impacted performance.
-
-## Future Work
-- Improve retrieval context-awareness.
-- Explore alternative generative models.
-- Enhance overlap detection for better span identification.
-
 ## Contact
-For questions or collaboration opportunities, reach out to:
+For questions reach out to:
 - Flor Alberts ([f.alberts.2@student.rug.nl](mailto:f.alberts.2@student.rug.nl))
 - Ivo Bruinier ([i.b.a.bruinier@student.rug.nl](mailto:i.b.a.bruinier@student.rug.nl))
 - Nathalie de Palm ([n.h.m.de.palm@student.rug.nl](mailto:n.h.m.de.palm@student.rug.nl))
