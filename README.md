@@ -14,8 +14,7 @@ Follow these steps to set up and run the project:
 
 ```sh
 # Clone the repository
-git clone https://github.com/your-repo-url.git
-cd your-repo-name
+git clone https://github.com/....
 
 # Install the required dependencies
 pip install -r requirements.txt
